@@ -248,46 +248,332 @@
             "tag": "手动选择",
             "type": "selector",
             "outbounds": [
-                "4Sarina-5183",
-                "(S111)🇸🇪t.me/PrivateVPNs`",
                 "🔒 VL-WS-TLS 🇫🇷 FR-35.180.52.250:22222",
-                "4Sarina-5289",
-                "4Sarina-5156",
-                "🔒 VL-TCP-TLS 🇺🇸 US-15.204.145.23:443",
-                "美国(yudou66.com 玉豆免费节点) 252",
-                "🔒 VL-TCP-TLS 🇺🇸 US-51.81.36.243:443",
-                "🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.38.232:443",
-                "🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.34.232:443",
-                "🔒 VL-WS-TLS 🏴‍☠️ NA-108.162.194.232:443",
-                "4Sarina-4571",
-                "4Sarina-4573",
                 "🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.150.8:8443",
+                "🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.34.232:443",
+                "🔒 VL-WS-TLS 🏴‍☠️ NA-104.26.5.32:8443",
+                "🔒 VL-WS-TLS 🏴‍☠️ NA-108.162.194.232:443",
+                "🔒 VL-TCP-TLS 🇺🇸 US-15.204.145.23:443",
+                "🔒 VL-TCP-TLS 🇺🇸 US-51.81.36.243:443",
+                "4Sarina-4573",
                 "4Sarina-4572",
+                "4Sarina-4571",
+                "4Sarina-5156",
+                "4Sarina-5183",
+                "4Sarina-5289",
                 "4Sarina-5986",
-                "🔒 VL-WS-TLS 🏴‍☠️ NA-104.26.5.32:8443"
+                "@Vip_Security join us - 101",
+                "@Vip_Security join us - 100",
+                "🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.38.232:443",
+                "(S111)🇸🇪t.me/PrivateVPNs`",
+                "disney_netflix_US 3",
+                "Relay_-🇺🇸US_07",
+                "disney_US 4",
+                "Relay_-🇺🇸US_16",
+                "disney_US",
+                "disney_US 6",
+                "disney_US 2",
+                "disney_netflix_US 6",
+                "Relay_-🇺🇸US_21",
+                "disney_US 3",
+                "Relay_-🇺🇸US_20",
+                "Relay_-🇺🇸US_23",
+                "disney_netflix_US 5",
+                "disney_US 5",
+                "disney_US 7",
+                "disney_netflix_US 8",
+                "Relay_-🇺🇸US_28",
+                "disney_netflix_US 10",
+                "Relay_-🇺🇸US_33",
+                "Relay_-🇺🇸US_36",
+                "Relay_-🇺🇸US_41",
+                "disney_netflix_US 9",
+                "Relay_-🇺🇸US_29",
+                "disney_KR",
+                "disney_netflix_US 13",
+                "disney_netflix_US 11",
+                "disney_CH",
+                "Relay_-🇺🇸US_44",
+                "Relay_-🇺🇸US_50",
+                "Relay_-🇺🇸US_51",
+                "Relay_-🇺🇸US_52",
+                "Relay_-🇺🇸US_47",
+                "disney_US 12",
+                "disney_netflix_US 16",
+                "disney_netflix_US 17",
+                "Relay_-🇩🇪DE_46",
+                "Relay_-🇩🇪DE_61",
+                "disney_netflix_JP",
+                "disney_KR 2",
+                "disney_CA",
+                "disney_netflix_US 19",
+                "Relay_-🇩🇪DE_69",
+                "Relay_-🇩🇪DE_65",
+                "Relay_-🇺🇸US_74",
+                "disney_US 13",
+                "disney_US 10",
+                "Relay_-🇺🇸US_78",
+                "disney_netflix_US 21",
+                "Relay_-🇺🇸US_67",
+                "disney_US 14",
+                "Relay_-🇺🇸US_82",
+                "disney_netflix_US 23",
+                "Relay_-🇺🇸US_86",
+                "Relay_-🇺🇸US_81",
+                "Relay_-🇩🇪DE_79",
+                "disney_HK",
+                "Relay_-🇺🇸US_87",
+                "disney_netflix_US 26",
+                "Relay_-🇩🇪DE_102",
+                "disney_netflix_GB",
+                "Relay_-🇺🇸US_96",
+                "disney_netflix_US 27",
+                "Relay_-🇩🇪DE_77",
+                "Relay_-🇺🇸US_98",
+                "Relay_-🇺🇸US_106",
+                "disney_US 15",
+                "Relay_-🇸🇬SG_113",
+                "Relay_-🇺🇸US_111",
+                "disney_DE",
+                "Relay_-🇺🇸US_101",
+                "Relay_-🇺🇸US_103",
+                "Relay_-🇺🇸US_108",
+                "disney_netflix_US 24",
+                "disney_netflix_US 28",
+                "Relay_-🇺🇸US_107",
+                "_116",
+                "disney_netflix_US 32",
+                "disney_KR 3",
+                "Relay_-🇺🇸US_121",
+                "disney_US 19",
+                "disney_US 18",
+                "Relay_-🇮🇱IL_120",
+                "Relay_-🇺🇸US_117",
+                "Relay_-🇺🇸US_127",
+                "disney_US 17",
+                "disney_netflix_US 35",
+                "Relay_-🇺🇸US_135",
+                "_136",
+                "disney_US 20",
+                "Relay_-🇺🇸US_130",
+                "Relay_-🇺🇸US_154",
+                "Relay_-🇺🇸US_114",
+                "Relay_-🇺🇸US_141",
+                "Relay_-🇬🇧GB_139",
+                "disney_TW",
+                "Relay_-🇺🇸US_157",
+                "Relay_-🇩🇪DE_155",
+                "Relay_-🇸🇬SG_159",
+                "Relay_-🇺🇸US_149",
+                "disney_US 21",
+                "disney_netflix_US 41",
+                "disney_netflix_US 39",
+                "Relay_-🇺🇸US_142",
+                "Relay_-🇺🇸US_160",
+                "Relay_-🇺🇸US_163",
+                "disney_netflix_US 46",
+                "disney_netflix_US 48",
+                "Relay_-🇺🇸US_166",
+                "Relay_-🇺🇸US_169",
+                "Relay_-🇺🇸US_168",
+                "Relay_-🇺🇸US_173",
+                "disney_CH 2",
+                "Relay_-🇺🇸US_176",
+                "disney_US 22",
+                "disney_netflix_US 51",
+                "disney_netflix_US 49",
+                "Relay_-🇺🇸US_183",
+                "disney_netflix_US 52",
+                "Relay_-🇺🇸US_186",
+                "disney_netflix_US 55",
+                "disney_US 24",
+                "Relay_-🇺🇸US_189",
+                "Relay_-🇺🇸US_193",
+                "Relay_-🇺🇸US_190",
+                "Relay_-🇺🇸US_191",
+                "Relay_-🇨🇦CA_194",
+                "Relay_-🇺🇸US_200",
+                "disney_US 27",
+                "disney_netflix_US 50",
+                "disney_US 30",
+                "🇩🇪DE_231",
+                "Relay_-🇺🇸US_195",
+                "Relay_-🇺🇸US_205",
+                "🇫🇷FR_233",
+                "disney_US 26",
+                "Relay_-🇺🇸US_206",
+                "disney_US 23",
+                "disney_US 31",
+                "Relay_-🇦🇺AU_202",
+                "Relay_🏁ZZ-🇺🇸US_278",
+                "disney_netflix_PL",
+                "美国(yudou66.com 玉豆免费节点) 252"
             ]
         },
         {
             "tag": "auto",
             "type": "urltest",
             "outbounds": [
-                "4Sarina-5183",
-                "(S111)🇸🇪t.me/PrivateVPNs`",
                 "🔒 VL-WS-TLS 🇫🇷 FR-35.180.52.250:22222",
-                "4Sarina-5289",
-                "4Sarina-5156",
-                "🔒 VL-TCP-TLS 🇺🇸 US-15.204.145.23:443",
-                "美国(yudou66.com 玉豆免费节点) 252",
-                "🔒 VL-TCP-TLS 🇺🇸 US-51.81.36.243:443",
-                "🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.38.232:443",
-                "🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.34.232:443",
-                "🔒 VL-WS-TLS 🏴‍☠️ NA-108.162.194.232:443",
-                "4Sarina-4571",
-                "4Sarina-4573",
                 "🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.150.8:8443",
+                "🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.34.232:443",
+                "🔒 VL-WS-TLS 🏴‍☠️ NA-104.26.5.32:8443",
+                "🔒 VL-WS-TLS 🏴‍☠️ NA-108.162.194.232:443",
+                "🔒 VL-TCP-TLS 🇺🇸 US-15.204.145.23:443",
+                "🔒 VL-TCP-TLS 🇺🇸 US-51.81.36.243:443",
+                "4Sarina-4573",
                 "4Sarina-4572",
+                "4Sarina-4571",
+                "4Sarina-5156",
+                "4Sarina-5183",
+                "4Sarina-5289",
                 "4Sarina-5986",
-                "🔒 VL-WS-TLS 🏴‍☠️ NA-104.26.5.32:8443"
+                "@Vip_Security join us - 101",
+                "@Vip_Security join us - 100",
+                "🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.38.232:443",
+                "(S111)🇸🇪t.me/PrivateVPNs`",
+                "disney_netflix_US 3",
+                "Relay_-🇺🇸US_07",
+                "disney_US 4",
+                "Relay_-🇺🇸US_16",
+                "disney_US",
+                "disney_US 6",
+                "disney_US 2",
+                "disney_netflix_US 6",
+                "Relay_-🇺🇸US_21",
+                "disney_US 3",
+                "Relay_-🇺🇸US_20",
+                "Relay_-🇺🇸US_23",
+                "disney_netflix_US 5",
+                "disney_US 5",
+                "disney_US 7",
+                "disney_netflix_US 8",
+                "Relay_-🇺🇸US_28",
+                "disney_netflix_US 10",
+                "Relay_-🇺🇸US_33",
+                "Relay_-🇺🇸US_36",
+                "Relay_-🇺🇸US_41",
+                "disney_netflix_US 9",
+                "Relay_-🇺🇸US_29",
+                "disney_KR",
+                "disney_netflix_US 13",
+                "disney_netflix_US 11",
+                "disney_CH",
+                "Relay_-🇺🇸US_44",
+                "Relay_-🇺🇸US_50",
+                "Relay_-🇺🇸US_51",
+                "Relay_-🇺🇸US_52",
+                "Relay_-🇺🇸US_47",
+                "disney_US 12",
+                "disney_netflix_US 16",
+                "disney_netflix_US 17",
+                "Relay_-🇩🇪DE_46",
+                "Relay_-🇩🇪DE_61",
+                "disney_netflix_JP",
+                "disney_KR 2",
+                "disney_CA",
+                "disney_netflix_US 19",
+                "Relay_-🇩🇪DE_69",
+                "Relay_-🇩🇪DE_65",
+                "Relay_-🇺🇸US_74",
+                "disney_US 13",
+                "disney_US 10",
+                "Relay_-🇺🇸US_78",
+                "disney_netflix_US 21",
+                "Relay_-🇺🇸US_67",
+                "disney_US 14",
+                "Relay_-🇺🇸US_82",
+                "disney_netflix_US 23",
+                "Relay_-🇺🇸US_86",
+                "Relay_-🇺🇸US_81",
+                "Relay_-🇩🇪DE_79",
+                "disney_HK",
+                "Relay_-🇺🇸US_87",
+                "disney_netflix_US 26",
+                "Relay_-🇩🇪DE_102",
+                "disney_netflix_GB",
+                "Relay_-🇺🇸US_96",
+                "disney_netflix_US 27",
+                "Relay_-🇩🇪DE_77",
+                "Relay_-🇺🇸US_98",
+                "Relay_-🇺🇸US_106",
+                "disney_US 15",
+                "Relay_-🇸🇬SG_113",
+                "Relay_-🇺🇸US_111",
+                "disney_DE",
+                "Relay_-🇺🇸US_101",
+                "Relay_-🇺🇸US_103",
+                "Relay_-🇺🇸US_108",
+                "disney_netflix_US 24",
+                "disney_netflix_US 28",
+                "Relay_-🇺🇸US_107",
+                "_116",
+                "disney_netflix_US 32",
+                "disney_KR 3",
+                "Relay_-🇺🇸US_121",
+                "disney_US 19",
+                "disney_US 18",
+                "Relay_-🇮🇱IL_120",
+                "Relay_-🇺🇸US_117",
+                "Relay_-🇺🇸US_127",
+                "disney_US 17",
+                "disney_netflix_US 35",
+                "Relay_-🇺🇸US_135",
+                "_136",
+                "disney_US 20",
+                "Relay_-🇺🇸US_130",
+                "Relay_-🇺🇸US_154",
+                "Relay_-🇺🇸US_114",
+                "Relay_-🇺🇸US_141",
+                "Relay_-🇬🇧GB_139",
+                "disney_TW",
+                "Relay_-🇺🇸US_157",
+                "Relay_-🇩🇪DE_155",
+                "Relay_-🇸🇬SG_159",
+                "Relay_-🇺🇸US_149",
+                "disney_US 21",
+                "disney_netflix_US 41",
+                "disney_netflix_US 39",
+                "Relay_-🇺🇸US_142",
+                "Relay_-🇺🇸US_160",
+                "Relay_-🇺🇸US_163",
+                "disney_netflix_US 46",
+                "disney_netflix_US 48",
+                "Relay_-🇺🇸US_166",
+                "Relay_-🇺🇸US_169",
+                "Relay_-🇺🇸US_168",
+                "Relay_-🇺🇸US_173",
+                "disney_CH 2",
+                "Relay_-🇺🇸US_176",
+                "disney_US 22",
+                "disney_netflix_US 51",
+                "disney_netflix_US 49",
+                "Relay_-🇺🇸US_183",
+                "disney_netflix_US 52",
+                "Relay_-🇺🇸US_186",
+                "disney_netflix_US 55",
+                "disney_US 24",
+                "Relay_-🇺🇸US_189",
+                "Relay_-🇺🇸US_193",
+                "Relay_-🇺🇸US_190",
+                "Relay_-🇺🇸US_191",
+                "Relay_-🇨🇦CA_194",
+                "Relay_-🇺🇸US_200",
+                "disney_US 27",
+                "disney_netflix_US 50",
+                "disney_US 30",
+                "🇩🇪DE_231",
+                "Relay_-🇺🇸US_195",
+                "Relay_-🇺🇸US_205",
+                "🇫🇷FR_233",
+                "disney_US 26",
+                "Relay_-🇺🇸US_206",
+                "disney_US 23",
+                "disney_US 31",
+                "Relay_-🇦🇺AU_202",
+                "Relay_🏁ZZ-🇺🇸US_278",
+                "disney_netflix_PL",
+                "美国(yudou66.com 玉豆免费节点) 252"
             ],
             "url": "http://www.gstatic.com/generate_204",
             "interval": "10m",
@@ -296,30 +582,6 @@
         {
             "type": "direct",
             "tag": "direct"
-        },
-        {
-            "password": "telegram-id-privatevpns",
-            "server": "13.37.43.11",
-            "server_port": 22222,
-            "tag": "4Sarina-5183",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
-        },
-        {
-            "password": "telegram-id-privatevpns",
-            "server": "13.53.219.38",
-            "server_port": 22222,
-            "tag": "(S111)🇸🇪t.me/PrivateVPNs`",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
         },
         {
             "server": "35.180.52.250",
@@ -340,80 +602,22 @@
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e"
         },
         {
-            "password": "telegram-id-privatevpns",
-            "server": "54.228.251.216",
-            "server_port": 22222,
-            "tag": "4Sarina-5289",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
-        },
-        {
-            "password": "telegram-id-directvpn",
-            "server": "34.247.229.38",
-            "server_port": 22222,
-            "tag": "4Sarina-5156",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
-        },
-        {
-            "server": "15.204.145.23",
-            "server_port": 443,
-            "tag": "🔒 VL-TCP-TLS 🇺🇸 US-15.204.145.23:443",
+            "server": "172.64.150.8",
+            "server_port": 8443,
+            "tag": "🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.150.8:8443",
             "tls": {
                 "enabled": true,
-                "server_name": "147135001178.sec22org.com"
-            },
-            "type": "vless",
-            "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce"
-        },
-        {
-            "server": "135.148.152.105",
-            "server_port": 443,
-            "tag": "美国(yudou66.com 玉豆免费节点) 252",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135001195.sec22org.com"
-            },
-            "type": "vless",
-            "uuid": "ea286109-d20f-415e-849e-4af20ab04b65"
-        },
-        {
-            "server": "51.81.36.243",
-            "server_port": 443,
-            "tag": "🔒 VL-TCP-TLS 🇺🇸 US-51.81.36.243:443",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135001178.sec22org.com"
-            },
-            "type": "vless",
-            "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce"
-        },
-        {
-            "server": "162.159.38.232",
-            "server_port": 443,
-            "tag": "🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.38.232:443",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "mqe79y.ulavpnx1.work"
+                "server_name": "usa.v2ray.com.br"
             },
             "transport": {
                 "headers": {
-                    "Host": "mqe79y.ulavpnx1.work"
+                    "Host": "usa.v2ray.com.br"
                 },
-                "path": "/wss",
+                "path": "/russian",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "a2675977-cafa-46c7-a0b2-eb28571d7028"
+            "uuid": "ee29fa1d-a706-4035-bea1-ae1f73845f65"
         },
         {
             "server": "172.64.34.232",
@@ -435,6 +639,24 @@
             "uuid": "a2675977-cafa-46c7-a0b2-eb28571d7028"
         },
         {
+            "server": "104.26.5.32",
+            "server_port": 8443,
+            "tag": "🔒 VL-WS-TLS 🏴‍☠️ NA-104.26.5.32:8443",
+            "tls": {
+                "enabled": true,
+                "server_name": "usa.v2ray.com.br"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "usa.v2ray.com.br"
+                },
+                "path": "/russian",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "ee29fa1d-a706-4035-bea1-ae1f73845f65"
+        },
+        {
             "server": "108.162.194.232",
             "server_port": 443,
             "tag": "🔒 VL-WS-TLS 🏴‍☠️ NA-108.162.194.232:443",
@@ -454,22 +676,26 @@
             "uuid": "a2675977-cafa-46c7-a0b2-eb28571d7028"
         },
         {
-            "password": "Pooria",
-            "server": "104.17.148.22",
+            "server": "15.204.145.23",
             "server_port": 443,
-            "tag": "4Sarina-4571",
+            "tag": "🔒 VL-TCP-TLS 🇺🇸 US-15.204.145.23:443",
             "tls": {
                 "enabled": true,
-                "server_name": "301.pOORiAm.ir"
+                "server_name": "147135001178.sec22org.com"
             },
-            "transport": {
-                "headers": {
-                    "Host": "301.pOORiAm.ir"
-                },
-                "path": "/trPyOrWMfkHd15oxiI?ed",
-                "type": "ws"
+            "type": "vless",
+            "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce"
+        },
+        {
+            "server": "51.81.36.243",
+            "server_port": 443,
+            "tag": "🔒 VL-TCP-TLS 🇺🇸 US-51.81.36.243:443",
+            "tls": {
+                "enabled": true,
+                "server_name": "147135001178.sec22org.com"
             },
-            "type": "trojan"
+            "type": "vless",
+            "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce"
         },
         {
             "password": "Pooria",
@@ -490,24 +716,6 @@
             "type": "trojan"
         },
         {
-            "server": "172.64.150.8",
-            "server_port": 8443,
-            "tag": "🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.150.8:8443",
-            "tls": {
-                "enabled": true,
-                "server_name": "usa.v2ray.com.br"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "usa.v2ray.com.br"
-                },
-                "path": "/russian",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "ee29fa1d-a706-4035-bea1-ae1f73845f65"
-        },
-        {
             "password": "Pooria",
             "server": "104.17.148.22",
             "server_port": 443,
@@ -523,6 +731,60 @@
                 },
                 "path": "/trPyOrWMfkHd15oxiI?ed=1520#FreeV2Alpha",
                 "type": "ws"
+            },
+            "type": "trojan"
+        },
+        {
+            "password": "Pooria",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "tag": "4Sarina-4571",
+            "tls": {
+                "enabled": true,
+                "server_name": "301.pOORiAm.ir"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "301.pOORiAm.ir"
+                },
+                "path": "/trPyOrWMfkHd15oxiI?ed",
+                "type": "ws"
+            },
+            "type": "trojan"
+        },
+        {
+            "password": "telegram-id-directvpn",
+            "server": "34.247.229.38",
+            "server_port": 22222,
+            "tag": "4Sarina-5156",
+            "tls": {
+                "alpn": "http/1.1",
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
+            },
+            "type": "trojan"
+        },
+        {
+            "password": "telegram-id-privatevpns",
+            "server": "13.37.43.11",
+            "server_port": 22222,
+            "tag": "4Sarina-5183",
+            "tls": {
+                "alpn": "http/1.1",
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
+            },
+            "type": "trojan"
+        },
+        {
+            "password": "telegram-id-privatevpns",
+            "server": "54.228.251.216",
+            "server_port": 22222,
+            "tag": "4Sarina-5289",
+            "tls": {
+                "alpn": "http/1.1",
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
             },
             "type": "trojan"
         },
@@ -546,22 +808,2589 @@
             "uuid": "41212369-3747-4444-9589-4417f250427a"
         },
         {
-            "server": "104.26.5.32",
-            "server_port": 8443,
-            "tag": "🔒 VL-WS-TLS 🏴‍☠️ NA-104.26.5.32:8443",
+            "password": "Pooria",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "tag": "@Vip_Security join us - 101",
             "tls": {
+                "alpn": "h2%2Chttp%2F1.1",
                 "enabled": true,
-                "server_name": "usa.v2ray.com.br"
+                "server_name": "301.pOORiAm.ir"
             },
             "transport": {
                 "headers": {
-                    "Host": "usa.v2ray.com.br"
+                    "Host": "301.pOORiAm.ir"
                 },
-                "path": "/russian",
+                "path": "trPyOrWMfkHd15oxiI%3Fed%3D1520%23%40v2ray_alpha",
+                "type": "ws"
+            },
+            "type": "trojan"
+        },
+        {
+            "password": "Pooria",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "tag": "@Vip_Security join us - 100",
+            "tls": {
+                "alpn": "h2%2Chttp%2F1.1",
+                "enabled": true,
+                "server_name": "301.pOORiAm.ir"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "301.pOORiAm.ir"
+                },
+                "path": "/trPyOrWMfkHd15oxiI?ed=1520",
+                "type": "ws"
+            },
+            "type": "trojan"
+        },
+        {
+            "server": "162.159.38.232",
+            "server_port": 443,
+            "tag": "🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.38.232:443",
+            "tls": {
+                "alpn": "http/1.1",
+                "enabled": true,
+                "server_name": "mqe79y.ulavpnx1.work"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "mqe79y.ulavpnx1.work"
+                },
+                "path": "/wss",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "ee29fa1d-a706-4035-bea1-ae1f73845f65"
+            "uuid": "a2675977-cafa-46c7-a0b2-eb28571d7028"
+        },
+        {
+            "password": "telegram-id-privatevpns",
+            "server": "13.53.219.38",
+            "server_port": 22222,
+            "tag": "(S111)🇸🇪t.me/PrivateVPNs`",
+            "tls": {
+                "alpn": "http/1.1",
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
+            },
+            "type": "trojan"
+        },
+        {
+            "server": "198.41.221.186",
+            "server_port": 443,
+            "tag": "disney_netflix_US 3",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "202.37.33.80",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_07",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "217.163.76.97",
+            "server_port": 443,
+            "tag": "disney_US 4",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.218",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_16",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560&proxyip=63.141.128.218:443",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "107.174.228.38",
+            "server_port": 23234,
+            "tag": "disney_US",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "130.250.137.161",
+            "server_port": 443,
+            "tag": "disney_US 6",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560&proxyip=130.250.137.161:443",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.124.174",
+            "server_port": 443,
+            "tag": "disney_US 2",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "192.0.54.168",
+            "server_port": 443,
+            "tag": "disney_netflix_US 6",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.167",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_21",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.146.187",
+            "server_port": 443,
+            "tag": "disney_US 3",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.162",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_20",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.186",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_23",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.152.64",
+            "server_port": 443,
+            "tag": "disney_netflix_US 5",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.133.85",
+            "server_port": 443,
+            "tag": "disney_US 5",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.152.163",
+            "server_port": 443,
+            "tag": "disney_US 7",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.16.110.111",
+            "server_port": 443,
+            "tag": "disney_netflix_US 8",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "45.67.215.0",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_28",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.241",
+            "server_port": 443,
+            "tag": "disney_netflix_US 10",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.162",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_33",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "216.221.210.185",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_36",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.136",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_41",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.134.27",
+            "server_port": 2083,
+            "tag": "disney_netflix_US 9",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.159.155",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_29",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "220.86.175.229",
+            "server_port": 30001,
+            "tag": "disney_KR",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "135.84.76.115",
+            "server_port": 443,
+            "tag": "disney_netflix_US 13",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.156.127",
+            "server_port": 443,
+            "tag": "disney_netflix_US 11",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "140.238.212.95",
+            "server_port": 443,
+            "tag": "disney_CH",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.153.64",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_44",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.18.47.177",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_50",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.99",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_51",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "192.0.54.132",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_52",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.144.196",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_47",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.64.152.251",
+            "server_port": 443,
+            "tag": "disney_US 12",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.237",
+            "server_port": 443,
+            "tag": "disney_netflix_US 16",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.106",
+            "server_port": 443,
+            "tag": "disney_netflix_US 17",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.67.106.26",
+            "server_port": 443,
+            "tag": "Relay_-🇩🇪DE_46",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "175.213.146.92",
+            "server_port": 12020,
+            "tag": "Relay_-🇩🇪DE_61",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "141.147.147.28",
+            "server_port": 8443,
+            "tag": "disney_netflix_JP",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "118.47.65.248",
+            "server_port": 30012,
+            "tag": "disney_KR 2",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "155.248.196.123",
+            "server_port": 443,
+            "tag": "disney_CA",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.16.110.107",
+            "server_port": 443,
+            "tag": "disney_netflix_US 19",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560&proxyip=185.16.110.107:443",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "152.70.57.182",
+            "server_port": 443,
+            "tag": "Relay_-🇩🇪DE_69",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "149.28.100.40",
+            "server_port": 33333,
+            "tag": "Relay_-🇩🇪DE_65",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.163",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_74",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.146.152",
+            "server_port": 443,
+            "tag": "disney_US 13",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.153.68",
+            "server_port": 443,
+            "tag": "disney_US 10",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.176",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_78",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.124.174",
+            "server_port": 443,
+            "tag": "disney_netflix_US 21",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.195.32",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_67",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.142.12",
+            "server_port": 443,
+            "tag": "disney_US 14",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.200",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_82",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "194.76.18.99",
+            "server_port": 443,
+            "tag": "disney_netflix_US 23",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.160",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_86",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.100",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_81",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.67.120.0",
+            "server_port": 443,
+            "tag": "Relay_-🇩🇪DE_79",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "8.212.48.236",
+            "server_port": 443,
+            "tag": "disney_HK",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.43",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_87",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.18.46.81",
+            "server_port": 443,
+            "tag": "disney_netflix_US 26",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "138.2.107.107",
+            "server_port": 443,
+            "tag": "Relay_-🇩🇪DE_102",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.67.243.218",
+            "server_port": 443,
+            "tag": "disney_netflix_GB",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.242",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_96",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "135.84.76.105",
+            "server_port": 443,
+            "tag": "disney_netflix_US 27",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "140.238.158.238",
+            "server_port": 443,
+            "tag": "Relay_-🇩🇪DE_77",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.153.254",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_98",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.94",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_106",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.144.239",
+            "server_port": 443,
+            "tag": "disney_US 15",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "54.255.217.120",
+            "server_port": 8192,
+            "tag": "Relay_-🇸🇬SG_113",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "217.163.76.102",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_111",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "45.154.98.99",
+            "server_port": 5004,
+            "tag": "disney_DE",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.25.254.4",
+            "server_port": 2087,
+            "tag": "Relay_-🇺🇸US_101",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "192.210.196.113",
+            "server_port": 34237,
+            "tag": "Relay_-🇺🇸US_103",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.144.119",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_108",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.215.241",
+            "server_port": 443,
+            "tag": "disney_netflix_US 24",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.67.79.211",
+            "server_port": 443,
+            "tag": "disney_netflix_US 28",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.153.173",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_107",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "223.16.138.113",
+            "server_port": 12457,
+            "tag": "_116",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "45.67.215.117",
+            "server_port": 443,
+            "tag": "disney_netflix_US 32",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "132.145.94.80",
+            "server_port": 443,
+            "tag": "disney_KR 3",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.152.206",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_121",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.100",
+            "server_port": 443,
+            "tag": "disney_US 19",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.154.41",
+            "server_port": 443,
+            "tag": "disney_US 18",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "129.159.129.107",
+            "server_port": 2053,
+            "tag": "Relay_-🇮🇱IL_120",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.152.64",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_117",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.71.31",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_127",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.153.159",
+            "server_port": 443,
+            "tag": "disney_US 17",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.153.165",
+            "server_port": 443,
+            "tag": "disney_netflix_US 35",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.225",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_135",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.209",
+            "server_port": 443,
+            "tag": "_136",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.153.254",
+            "server_port": 443,
+            "tag": "disney_US 20",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.153.134",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_130",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "130.250.137.19",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_154",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "129.213.136.180",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_114",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.129.67",
+            "server_port": 8443,
+            "tag": "Relay_-🇺🇸US_141",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.67.181.209",
+            "server_port": 443,
+            "tag": "Relay_-🇬🇧GB_139",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "210.61.97.241",
+            "server_port": 81,
+            "tag": "disney_TW",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.36.104",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_157",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "129.151.225.228",
+            "server_port": 8443,
+            "tag": "Relay_-🇩🇪DE_155",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "138.2.107.107",
+            "server_port": 443,
+            "tag": "Relay_-🇸🇬SG_159",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.159.190",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_149",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.144.176",
+            "server_port": 443,
+            "tag": "disney_US 21",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.67.95.24",
+            "server_port": 443,
+            "tag": "disney_netflix_US 41",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "35.212.182.176",
+            "server_port": 54321,
+            "tag": "disney_netflix_US 39",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.152.219",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_142",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.43",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_160",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "198.62.62.156",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_163",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "103.160.204.59",
+            "server_port": 443,
+            "tag": "disney_netflix_US 46",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.242",
+            "server_port": 443,
+            "tag": "disney_netflix_US 48",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.96",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_166",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.155",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_169",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "198.62.62.4",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_168",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "130.250.137.94",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_173",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "140.238.212.95",
+            "server_port": 443,
+            "tag": "disney_CH 2",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.24",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_176",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560&proxyip=212.183.88.24:443",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.16.248.192",
+            "server_port": 443,
+            "tag": "disney_US 22",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "185.133.35.103",
+            "server_port": 443,
+            "tag": "disney_netflix_US 51",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.152.34",
+            "server_port": 443,
+            "tag": "disney_netflix_US 49",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.140",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_183",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "135.148.163.90",
+            "server_port": 443,
+            "tag": "disney_netflix_US 52",
+            "tls": {
+                "enabled": true,
+                "server_name": "147135001178.sec22org.com"
+            },
+            "type": "vless",
+            "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce"
+        },
+        {
+            "server": "63.141.128.58",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_186",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "194.76.18.83",
+            "server_port": 443,
+            "tag": "disney_netflix_US 55",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.67.49.134",
+            "server_port": 443,
+            "tag": "disney_US 24",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.94",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_189",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.209",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_193",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560&proxyip=63.141.128.209:443",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "63.141.128.209",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_190",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.64.152.251",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_191",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "155.248.196.123",
+            "server_port": 443,
+            "tag": "Relay_-🇨🇦CA_194",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "212.183.88.132",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_200",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.18.46.81",
+            "server_port": 443,
+            "tag": "disney_US 27",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "47.90.141.204",
+            "server_port": 443,
+            "tag": "disney_netflix_US 50",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "160.79.105.99",
+            "server_port": 443,
+            "tag": "disney_US 30",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "password": "telegram-id-privatevpns",
+            "server": "52.59.75.177",
+            "server_port": 22222,
+            "tag": "🇩🇪DE_231",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
+            },
+            "type": "trojan"
+        },
+        {
+            "server": "15.204.158.90",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_195",
+            "tls": {
+                "enabled": true,
+                "server_name": "147135011033.sec21org.com"
+            },
+            "type": "vless",
+            "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c"
+        },
+        {
+            "server": "216.221.210.185",
+            "server_port": 443,
+            "tag": "Relay_-🇺🇸US_205",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "password": "telegram-id-privatevpns",
+            "server": "13.38.180.105",
+            "server_port": 22222,
+            "tag": "🇫🇷FR_233",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
+            },
+            "type": "trojan"
+        },
+        {
+            "server": "104.17.189.210",
+            "server_port": 443,
+            "tag": "disney_US 26",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "104.17.128.1",
+            "server_port": 2096,
+            "tag": "Relay_-🇺🇸US_206",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "162.159.153.24",
+            "server_port": 443,
+            "tag": "disney_US 23",
+            "tls": {
+                "enabled": true,
+                "server_name": "c1.bgm2024.us.kg"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c1.bgm2024.us.kg"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "172.67.110.232",
+            "server_port": 443,
+            "tag": "disney_US 31",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "server": "192.9.180.162",
+            "server_port": 443,
+            "tag": "Relay_-🇦🇺AU_202",
+            "tls": {
+                "enabled": true,
+                "server_name": "c01.ylkszy.eu.org"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "c01.ylkszy.eu.org"
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9"
+        },
+        {
+            "password": "Pooria",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "tag": "Relay_🏁ZZ-🇺🇸US_278",
+            "tls": {
+                "enabled": true,
+                "insecure": true,
+                "server_name": "301.pOORiAm.ir"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "301.pOORiAm.ir"
+                },
+                "path": "/trPyOrWMfkHd15oxiI?ed=1520",
+                "type": "ws"
+            },
+            "type": "trojan"
+        },
+        {
+            "password": "be758973-186d-46fe-8aa4-e017134fa291",
+            "server": "31.186.87.211",
+            "server_port": 4029,
+            "tag": "disney_netflix_PL",
+            "tls": {
+                "enabled": true,
+                "insecure": true,
+                "server_name": "www.bing.com"
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "135.148.152.105",
+            "server_port": 443,
+            "tag": "美国(yudou66.com 玉豆免费节点) 252",
+            "tls": {
+                "enabled": true,
+                "server_name": "147135001195.sec22org.com"
+            },
+            "type": "vless",
+            "uuid": "ea286109-d20f-415e-849e-4af20ab04b65"
         }
     ],
     "route": {
