@@ -247,70 +247,136 @@
             "tag": "手动选择",
             "type": "selector",
             "outbounds": [
-                "🔥Join Telegram:@FarahVPN🟣 205",
-                "🔥Join Telegram:@FarahVPN🟣 228",
-                "🔥Join Telegram:@FarahVPN🟣 344",
-                "🔥Join Telegram:@FarahVPN🟣 596",
-                "🔥Join Telegram:@FarahVPN🟣 646",
-                "🔥Join Telegram:@FarahVPN🟣 728",
-                "🔥Join Telegram:@FarahVPN🟣 827",
-                "🔥Join Telegram:@FarahVPN🟣 991",
-                "🔥Join Telegram:@FarahVPN🟣 1008",
-                "🔥Join Telegram:@FarahVPN🟣 2528",
-                "🔥Join Telegram:@FarahVPN🟣 2561",
-                "🔥Join Telegram:@FarahVPN🟣 2838",
-                "🔥Join Telegram:@FarahVPN🟣 3367",
-                "🔥Join Telegram:@FarahVPN🟣 3360",
-                "🔥Join Telegram:@FarahVPN🟣 3529",
-                "🔥Join Telegram:@FarahVPN🟣 3532",
-                "🔥Join Telegram:@FarahVPN🟣 4326",
-                "🔥Join Telegram:@FarahVPN🟣 4371",
-                "🔥Join Telegram:@FarahVPN🟣 4836",
-                "🔥Join+Telegram:@FarahVPN🟣 363",
-                "🔥Join Telegram:@FarahVPN🟣 5090",
-                "🔥Join Telegram:@FarahVPN🟣 6719",
-                "🔥Join Telegram:@FarahVPN🟣 6834",
-                "🔥Join Telegram:@FarahVPN🟣 7090",
-                "🔥Join Telegram:@FarahVPN🟣 7476",
-                "netflix_DE",
-                "🇵🇱PL_16",
-                "🇫🇷FR_110",
-                "Relay_🇺🇸US-🇺🇸US_164 |26.56Mb"
+                "🇷🇺 俄罗斯 | RUS 11",
+                "🇷🇺 俄罗斯 | RUS 16",
+                "🇷🇺 俄罗斯 | RUS 18",
+                "🇷🇺 俄罗斯 | RUS 20",
+                "🇷🇺 俄罗斯 | RUS 29",
+                "🇷🇺 俄罗斯 | RUS 24",
+                "🇷🇺 俄罗斯 | RUS 25",
+                "🇷🇺 俄罗斯 | RUS 32",
+                "🇷🇺 俄罗斯 | RUS 31",
+                "🇷🇺 俄罗斯 | RUS 34",
+                "🇷🇺 俄罗斯 | RUS 39",
+                "🇷🇺 俄罗斯 | RUS 47",
+                "🇷🇺 俄罗斯 | RUS 41",
+                "🇷🇺 俄罗斯 | RUS 54",
+                "🇷🇺 俄罗斯 | RUS 43",
+                "🇷🇺 俄罗斯 | RUS 48",
+                "🇷🇺 俄罗斯 | RUS 58",
+                "🇺🇸 美国 | USA 2",
+                "🇺🇸 美国 | USA 12",
+                "🇺🇸 美国 | USA 8",
+                "🇺🇸 美国 | USA 19",
+                "🇺🇸 美国 | USA 26",
+                "🇺🇸 美国 | USA 29",
+                "🇺🇸 美国 | USA 50",
+                "🇺🇸 美国 | USA 42",
+                "🇺🇸 美国 | USA 36",
+                "🇺🇸 美国 | USA 38",
+                "🇺🇸 美国 | USA 59",
+                "🇺🇸 美国 | USA 61",
+                "🇺🇸 美国 | USA 62",
+                "🇺🇸 美国 | USA 68",
+                "🇺🇸 美国 | USA 70",
+                "🇺🇸 美国 | USA 74",
+                "🇺🇸 美国 | USA 78",
+                "🔥Join Telegram:@FarahVPN🟣 2",
+                "US_Los Angeles_PEG TECH INC_OpenAI_Claude",
+                "US_Santa Clara_PEG TECH INC_OpenAI_Claude",
+                "🔥Join Telegram:@FarahVPN🟣 194",
+                "🔥Join Telegram:@FarahVPN🟣 667",
+                "🔥Join Telegram:@FarahVPN🟣 904",
+                "🔥Join Telegram:@FarahVPN🟣 1181",
+                "🔥Join Telegram:@FarahVPN🟣 1487",
+                "🔥Join Telegram:@FarahVPN🟣 1853",
+                "🔥Join Telegram:@FarahVPN🟣 2301",
+                "🔥Join Telegram:@FarahVPN🟣 2414",
+                "🔥Join Telegram:@FarahVPN🟣 2953",
+                "🔥Join Telegram:@FarahVPN🟣 3824",
+                "🔥Join Telegram:@FarahVPN🟣 3955",
+                "🔥Join Telegram:@FarahVPN🟣 4449",
+                "🔥Join Telegram:@FarahVPN🟣 4511",
+                "🔥Join Telegram:@FarahVPN🟣 5054",
+                "🔥Join Telegram:@FarahVPN🟣 5274",
+                "🔥Join Telegram:@FarahVPN🟣 5871",
+                "🔥Join Telegram:@FarahVPN🟣 5996",
+                "🔥Join Telegram:@FarahVPN🟣 6473",
+                "🔥Join Telegram:@FarahVPN🟣 6844",
+                "🔥Join Telegram:@FarahVPN🟣 6823",
+                "@MxlShare 美国 | USA 47",
+                "@MxlShare 波兰 | POL",
+                "@MxlShare 德国 | DEU 3",
+                "@MxlShare 德国 | DEU 2",
+                "@MxlShare 美国 | USA 22"
             ]
         },
         {
             "tag": "auto",
             "type": "urltest",
             "outbounds": [
-                "🔥Join Telegram:@FarahVPN🟣 205",
-                "🔥Join Telegram:@FarahVPN🟣 228",
-                "🔥Join Telegram:@FarahVPN🟣 344",
-                "🔥Join Telegram:@FarahVPN🟣 596",
-                "🔥Join Telegram:@FarahVPN🟣 646",
-                "🔥Join Telegram:@FarahVPN🟣 728",
-                "🔥Join Telegram:@FarahVPN🟣 827",
-                "🔥Join Telegram:@FarahVPN🟣 991",
-                "🔥Join Telegram:@FarahVPN🟣 1008",
-                "🔥Join Telegram:@FarahVPN🟣 2528",
-                "🔥Join Telegram:@FarahVPN🟣 2561",
-                "🔥Join Telegram:@FarahVPN🟣 2838",
-                "🔥Join Telegram:@FarahVPN🟣 3367",
-                "🔥Join Telegram:@FarahVPN🟣 3360",
-                "🔥Join Telegram:@FarahVPN🟣 3529",
-                "🔥Join Telegram:@FarahVPN🟣 3532",
-                "🔥Join Telegram:@FarahVPN🟣 4326",
-                "🔥Join Telegram:@FarahVPN🟣 4371",
-                "🔥Join Telegram:@FarahVPN🟣 4836",
-                "🔥Join+Telegram:@FarahVPN🟣 363",
-                "🔥Join Telegram:@FarahVPN🟣 5090",
-                "🔥Join Telegram:@FarahVPN🟣 6719",
-                "🔥Join Telegram:@FarahVPN🟣 6834",
-                "🔥Join Telegram:@FarahVPN🟣 7090",
-                "🔥Join Telegram:@FarahVPN🟣 7476",
-                "netflix_DE",
-                "🇵🇱PL_16",
-                "🇫🇷FR_110",
-                "Relay_🇺🇸US-🇺🇸US_164 |26.56Mb"
+                "🇷🇺 俄罗斯 | RUS 11",
+                "🇷🇺 俄罗斯 | RUS 16",
+                "🇷🇺 俄罗斯 | RUS 18",
+                "🇷🇺 俄罗斯 | RUS 20",
+                "🇷🇺 俄罗斯 | RUS 29",
+                "🇷🇺 俄罗斯 | RUS 24",
+                "🇷🇺 俄罗斯 | RUS 25",
+                "🇷🇺 俄罗斯 | RUS 32",
+                "🇷🇺 俄罗斯 | RUS 31",
+                "🇷🇺 俄罗斯 | RUS 34",
+                "🇷🇺 俄罗斯 | RUS 39",
+                "🇷🇺 俄罗斯 | RUS 47",
+                "🇷🇺 俄罗斯 | RUS 41",
+                "🇷🇺 俄罗斯 | RUS 54",
+                "🇷🇺 俄罗斯 | RUS 43",
+                "🇷🇺 俄罗斯 | RUS 48",
+                "🇷🇺 俄罗斯 | RUS 58",
+                "🇺🇸 美国 | USA 2",
+                "🇺🇸 美国 | USA 12",
+                "🇺🇸 美国 | USA 8",
+                "🇺🇸 美国 | USA 19",
+                "🇺🇸 美国 | USA 26",
+                "🇺🇸 美国 | USA 29",
+                "🇺🇸 美国 | USA 50",
+                "🇺🇸 美国 | USA 42",
+                "🇺🇸 美国 | USA 36",
+                "🇺🇸 美国 | USA 38",
+                "🇺🇸 美国 | USA 59",
+                "🇺🇸 美国 | USA 61",
+                "🇺🇸 美国 | USA 62",
+                "🇺🇸 美国 | USA 68",
+                "🇺🇸 美国 | USA 70",
+                "🇺🇸 美国 | USA 74",
+                "🇺🇸 美国 | USA 78",
+                "🔥Join Telegram:@FarahVPN🟣 2",
+                "US_Los Angeles_PEG TECH INC_OpenAI_Claude",
+                "US_Santa Clara_PEG TECH INC_OpenAI_Claude",
+                "🔥Join Telegram:@FarahVPN🟣 194",
+                "🔥Join Telegram:@FarahVPN🟣 667",
+                "🔥Join Telegram:@FarahVPN🟣 904",
+                "🔥Join Telegram:@FarahVPN🟣 1181",
+                "🔥Join Telegram:@FarahVPN🟣 1487",
+                "🔥Join Telegram:@FarahVPN🟣 1853",
+                "🔥Join Telegram:@FarahVPN🟣 2301",
+                "🔥Join Telegram:@FarahVPN🟣 2414",
+                "🔥Join Telegram:@FarahVPN🟣 2953",
+                "🔥Join Telegram:@FarahVPN🟣 3824",
+                "🔥Join Telegram:@FarahVPN🟣 3955",
+                "🔥Join Telegram:@FarahVPN🟣 4449",
+                "🔥Join Telegram:@FarahVPN🟣 4511",
+                "🔥Join Telegram:@FarahVPN🟣 5054",
+                "🔥Join Telegram:@FarahVPN🟣 5274",
+                "🔥Join Telegram:@FarahVPN🟣 5871",
+                "🔥Join Telegram:@FarahVPN🟣 5996",
+                "🔥Join Telegram:@FarahVPN🟣 6473",
+                "🔥Join Telegram:@FarahVPN🟣 6844",
+                "🔥Join Telegram:@FarahVPN🟣 6823",
+                "@MxlShare 美国 | USA 47",
+                "@MxlShare 波兰 | POL",
+                "@MxlShare 德国 | DEU 3",
+                "@MxlShare 德国 | DEU 2",
+                "@MxlShare 美国 | USA 22"
             ],
             "url": "http://www.gstatic.com/generate_204",
             "interval": "20m",
@@ -321,28 +387,724 @@
             "tag": "direct"
         },
         {
-            "server": "51.20.73.209",
-            "server_port": 8443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 205",
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "ad72c96b-86a5-4fbc-bc7a-883abb5e8636",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 11",
             "tls": {
                 "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-                },
-                "server_name": "zula.ir",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+                "insecure": true
             },
-            "type": "vless",
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9"
+            "type": "hysteria2",
+            "up_mbps": 15
         },
         {
-            "server": "16.170.190.56",
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "2cae1b54-57f2-42b6-9ebb-99db1b58fd8d",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 16",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 100,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "b3fda0c1-b53d-4454-be81-976a77994e1d",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 18",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 100
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "2933a2fc-0d38-4edd-ac10-fa769cfb59a8",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 20",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "dfe9af18-36a8-4a2a-a1fe-626ffb24b440",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 29",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "4ff2a370-a369-49bd-b323-12781dbb20f9",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 24",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "3ca4aac0-ee93-48bf-b5cf-4bf96435f1c2",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 25",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "7d70eb0d-6223-4bb1-9769-5f2251451927",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 32",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "0e29dcfa-ef98-4767-ac80-4135961fb7af",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 31",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 100,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "0a7ca26f-9e4f-46a6-b64c-9e10d9195d32",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 34",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 100
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "baafc1b7-28d0-4430-a861-d7464077ab18",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 39",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "beb844a5-a99a-4cd0-8c23-b20527305355",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 47",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "4d2845af-f33a-4ca6-bfde-33e9b7f300cf",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 41",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "638d7c3f-500f-4690-ad57-f0404c12360f",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 54",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "38360c10-7f25-43c0-9fcb-a58ae6f7ef4f",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 43",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "b84d4f00-ad98-4ca9-878f-67eb37f1b148",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 48",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "27de7dbb-d82e-44e7-90b8-25dcb264f883",
+            "server": "185.22.152.236",
+            "server_port": 33007,
+            "tag": "🇷🇺 俄罗斯 | RUS 58",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "638d7c3f-500f-4690-ad57-f0404c12360f",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 2",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "38360c10-7f25-43c0-9fcb-a58ae6f7ef4f",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 12",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "4ff2a370-a369-49bd-b323-12781dbb20f9",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 8",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "baafc1b7-28d0-4430-a861-d7464077ab18",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 19",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "7d70eb0d-6223-4bb1-9769-5f2251451927",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 26",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "ad72c96b-86a5-4fbc-bc7a-883abb5e8636",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 29",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 100,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "c0514f23-c68d-4c4b-8569-689656cfa3be",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 50",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 100
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "2cae1b54-57f2-42b6-9ebb-99db1b58fd8d",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 42",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "b84d4f00-ad98-4ca9-878f-67eb37f1b148",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 36",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "beb844a5-a99a-4cd0-8c23-b20527305355",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 38",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "2933a2fc-0d38-4edd-ac10-fa769cfb59a8",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 59",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "27de7dbb-d82e-44e7-90b8-25dcb264f883",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 61",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "0e29dcfa-ef98-4767-ac80-4135961fb7af",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 62",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 100,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "0a7ca26f-9e4f-46a6-b64c-9e10d9195d32",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 68",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 100
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "4d2845af-f33a-4ca6-bfde-33e9b7f300cf",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 70",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "3ca4aac0-ee93-48bf-b5cf-4bf96435f1c2",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 74",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "down_mbps": 15,
+            "obfs": {
+                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
+                "type": "salamander"
+            },
+            "password": "dfe9af18-36a8-4a2a-a1fe-626ffb24b440",
+            "server": "207.90.237.96",
+            "server_port": 33006,
+            "tag": "🇺🇸 美国 | USA 78",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 15
+        },
+        {
+            "server": "129.159.241.172",
+            "server_port": 443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 2",
+            "tls": {
+                "enabled": true,
+                "server_name": "147135004002.sec20org.com"
+            },
+            "type": "vless",
+            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
+        },
+        {
+            "password": "fbd550df-3838-482a-b2f1-1e7e8293a922",
+            "server": "107.148.41.80",
+            "server_port": 6051,
+            "tag": "US_Los Angeles_PEG TECH INC_OpenAI_Claude",
+            "tls": {
+                "alpn": "h3",
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "3e9bc412-6c40-4f68-9a31-fdd20c81a87c",
+            "server": "104.233.211.26",
+            "server_port": 40837,
+            "tag": "US_Santa Clara_PEG TECH INC_OpenAI_Claude",
+            "tls": {
+                "alpn": "h3",
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "193.9.49.241",
+            "server_port": 443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 194",
+            "tls": {
+                "enabled": true,
+                "server_name": "eua.kobtty.me"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "eua.kobtty.me"
+                },
+                "path": "/bing",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "cd01db3b-4b0a-4718-98dd-1d38f55be03f"
+        },
+        {
+            "password": "telegram-id-directvpn",
+            "server": "13.39.34.109",
             "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 228",
+            "tag": "🔥Join Telegram:@FarahVPN🟣 667",
+            "tls": {
+                "alpn": "http/1.1",
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
+            },
+            "type": "trojan"
+        },
+        {
+            "server": "162.159.152.2",
+            "server_port": 2087,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 904",
+            "tls": {
+                "alpn": "h2%2Chttp%2F1.1",
+                "enabled": true,
+                "server_name": "tP256KM2RO.YazahrA1.info"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "tP256KM2RO.YazahrA1.info"
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9"
+        },
+        {
+            "password": "telegram-id-directvpn",
+            "server": "35.176.229.151",
+            "server_port": 22222,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 1181",
+            "tls": {
+                "alpn": "http/1.1",
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
+            },
+            "type": "trojan"
+        },
+        {
+            "server": "135.148.74.155",
+            "server_port": 443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 1487",
+            "tls": {
+                "enabled": true,
+                "server_name": "147135004002.sec20org.com"
+            },
+            "type": "vless",
+            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
+        },
+        {
+            "server": "104.215.58.230",
+            "server_port": 443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 1853",
+            "tls": {
+                "enabled": true,
+                "server_name": "gkkui8.azurewebsites.net"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "gkkui8.azurewebsites.net"
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"
+        },
+        {
+            "password": "telegram-id-directvpn",
+            "server": "34.243.149.238",
+            "server_port": 22222,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 2301",
+            "tls": {
+                "alpn": "http/1.1",
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk"
+            },
+            "type": "trojan"
+        },
+        {
+            "server": "35.179.217.75",
+            "server_port": 22222,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 2414",
             "tls": {
                 "enabled": true,
                 "server_name": "telegram-channel-vlessconfig.sohala.uk"
@@ -358,28 +1120,109 @@
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e"
         },
         {
-            "server": "192.200.160.188",
-            "server_port": 2087,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 344",
+            "server": "104.21.39.204",
+            "server_port": 443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 2953",
             "tls": {
-                "alpn": "h3,h2,http/1.1",
+                "alpn": "http%2F1.1",
                 "enabled": true,
-                "server_name": "crm.iranigamebaz.ir"
+                "server_name": "nY.360832.xYz"
             },
             "transport": {
                 "headers": {
-                    "Host": "crm.iranigamebaz.ir"
+                    "Host": "nY.360832.xYz"
                 },
-                "path": "/Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban",
+                "path": "/mxgPEgOLj8iAp1tHdIGP3",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "57d10484-287c-4290-a9c2-8cb509346caa"
+            "uuid": "5f5fe97a-73ee-4584-87cb-1e5cd510d572"
+        },
+        {
+            "server": "85.192.28.89",
+            "server_port": 443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 3824",
+            "tls": {
+                "alpn": "h2",
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Hng90MObJ5OBtIrfrf6U02WIx36R9srHLBwRsj1r7Dw",
+                    "short_id": "05a6d4aa5e314637"
+                },
+                "server_name": "stackoverflow.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "service_name": "yZ1aB2cC3dD4eE5f6gH7iJ8kL9mNOoP",
+                "type": "grpc"
+            },
+            "type": "vless",
+            "uuid": "a76988d9-d0cc-4961-b050-854cecdc1106"
+        },
+        {
+            "server": "172.64.150.8",
+            "server_port": 8443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 3955",
+            "tls": {
+                "enabled": true,
+                "server_name": "usa.v2ray.com.br"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "usa.v2ray.com.br"
+                },
+                "path": "/russian",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "ee29fa1d-a706-4035-bea1-ae1f73845f65"
+        },
+        {
+            "server": "104.26.15.16",
+            "server_port": 2083,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 4449",
+            "tls": {
+                "alpn": "h2,http/1.1",
+                "enabled": true,
+                "server_name": "bEAt.MIRaclETaxbiTS.Top."
+            },
+            "transport": {
+                "headers": {
+                    "Host": "bEAt.MIRaclETaxbiTS.Top."
+                },
+                "path": "/2083/@VRayyNGvpn",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "cadf0483-c628-48d7-9267-514badbbdbb7"
+        },
+        {
+            "server": "178.62.112.47",
+            "server_port": 443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 4511",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ya3K9Ddp7WYOnePuHUG1h83Dkp3i0E3OxrohUWn0a38"
+                },
+                "server_name": "TGju.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "uuid": "670be98f-176a-4a21-82f9-d516c0e04232"
         },
         {
             "server": "209.227.230.243",
             "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 596",
+            "tag": "🔥Join Telegram:@FarahVPN🟣 5054",
             "tls": {
                 "enabled": true,
                 "reality": {
@@ -401,311 +1244,29 @@
             "uuid": "253f59da-b708-4404-cebe-3854aad88880"
         },
         {
-            "password": "telegram-id-directvpn",
-            "server": "13.37.56.242",
-            "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 646",
+            "server": "172.67.69.236",
+            "server_port": 2083,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 5274",
             "tls": {
-                "alpn": "http/1.1",
+                "alpn": "h2,http/1.1",
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
-        },
-        {
-            "server": "13.51.64.2",
-            "server_port": 8443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 728",
-            "tls": {
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-                },
-                "server_name": "zula.ir",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "type": "vless",
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9"
-        },
-        {
-            "server": "37.156.47.137",
-            "server_port": 1003,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 827",
-            "tls": {
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik"
-                },
-                "server_name": "astartap-abr.ir",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "type": "vless",
-            "uuid": "7de5b9f2-430a-4f2c-89b8-88e04a3ba179"
-        },
-        {
-            "password": "1e63e585ab2fef3adcc9ea75a62abc23",
-            "server": "104.251.227.182",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 991",
-            "tls": {
-                "enabled": true,
-                "insecure": true,
-                "server_name": "hezijiasuqi.com"
-            },
-            "type": "trojan"
-        },
-        {
-            "server": "51.81.37.29",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 1008",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135004002.sec20org.com"
-            },
-            "type": "vless",
-            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
-        },
-        {
-            "server": "13.60.8.46",
-            "server_port": 8443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 2528",
-            "tls": {
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-                },
-                "server_name": "zula.ir",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "type": "vless",
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9"
-        },
-        {
-            "password": "telegram-id-directvpn",
-            "server": "54.228.93.255",
-            "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 2561",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
-        },
-        {
-            "server": "185.146.173.63",
-            "server_port": 2096,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 2838",
-            "tls": {
-                "alpn": "h3h2",
-                "enabled": true,
-                "server_name": "v9a.engefreund.info"
+                "server_name": "bEAt.MIRaclETaxbiTS.Top."
             },
             "transport": {
                 "headers": {
-                    "Host": "v9a.engefreund.info"
+                    "Host": "bEAt.MIRaclETaxbiTS.Top."
                 },
-                "path": "/",
+                "path": "/2083/@VRayyNGvpn",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "f171d615-4544-4823-b049-369b9e655f58"
-        },
-        {
-            "password": "telegram-id-privatevpns",
-            "server": "18.132.130.29",
-            "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 3367",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
-        },
-        {
-            "server": "108.162.193.81",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 3360",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "1netiz.allgums.com"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "1netiz.allgums.com"
-                },
-                "path": "/wss",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "8d736fff-d18e-4371-a4bd-4ea0746209b8"
-        },
-        {
-            "server": "94.250.246.200",
-            "server_port": 8080,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 3529",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.mifeng.us.kg"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "a.mifeng.us.kg"
-                },
-                "path": "/?ed=2560",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4"
-        },
-        {
-            "server": "135.148.177.251",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 3532",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135004002.sec20org.com"
-            },
-            "type": "vless",
-            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
-        },
-        {
-            "server": "15.204.167.6",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 4326",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135001195.sec22org.com"
-            },
-            "type": "vless",
-            "uuid": "ea286109-d20f-415e-849e-4af20ab04b65"
-        },
-        {
-            "server": "13.61.155.239",
-            "server_port": 8443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 4371",
-            "tls": {
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-                },
-                "server_name": "zula.ir",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "type": "vless",
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9"
-        },
-        {
-            "server": "94.154.34.112",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 4836",
-            "tls": {
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Sx5gCel0sEdt1jvh7UWiQeff-jkqOAoq6yoWJvi-SSY",
-                    "short_id": "2ef4b569e4"
-                },
-                "server_name": "www.speedtest.net",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "type": "vless",
-            "uuid": "dbe17297-3c29-5348-33c6-fae3d706d9e7"
-        },
-        {
-            "security": "auto",
-            "server": "172.67.170.13",
-            "server_port": 443,
-            "tag": "🔥Join+Telegram:@FarahVPN🟣 363",
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "glweidf.sbs"
-                },
-                "path": "/linkws",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b"
-        },
-        {
-            "server": "173.245.59.81",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 5090",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "1l6fh0.billionaire33.com"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "1l6fh0.billionaire33.com"
-                },
-                "path": "/wss",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "0566fecc-006a-4ac2-8452-046f784d18e9"
-        },
-        {
-            "server": "147.135.1.195",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 6719",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135001195.sec22org.com"
-            },
-            "type": "vless",
-            "uuid": "ea286109-d20f-415e-849e-4af20ab04b65"
-        },
-        {
-            "server": "13.60.5.154",
-            "server_port": 8443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 6834",
-            "tls": {
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-                },
-                "server_name": "zula.ir",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "type": "vless",
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9"
+            "uuid": "cadf0483-c628-48d7-9267-514badbbdbb7"
         },
         {
             "flow": "xtls-rprx-vision",
             "server": "31.59.111.49",
             "server_port": 33718,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 7090",
+            "tag": "🔥Join Telegram:@FarahVPN🟣 5871",
             "tls": {
                 "enabled": true,
                 "reality": {
@@ -722,39 +1283,99 @@
             "uuid": "e657e5fb-c417-4d3f-d84e-a3a8f010f9fa"
         },
         {
-            "server": "172.67.36.124",
+            "server": "194.182.84.53",
             "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 7476",
+            "tag": "🔥Join Telegram:@FarahVPN🟣 5996",
             "tls": {
                 "enabled": true,
-                "server_name": "inputbugwildcard.cloudproxyip.my.id.loss.cloudproxyip.my.id"
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DpSW8adQoMP_hcXxdAGD6PPdrHuwYbFomzJmBmtsqxM",
+                    "short_id": "e3f189ed"
+                },
+                "server_name": "wordpress.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl",
+                "type": "grpc"
+            },
+            "type": "vless",
+            "uuid": "3743e72f-a5f2-4b4f-a38e-7f7299a54028"
+        },
+        {
+            "server": "135.148.211.8",
+            "server_port": 443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 6473",
+            "tls": {
+                "enabled": true,
+                "server_name": "147135010103.sec19org.com"
+            },
+            "type": "vless",
+            "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40"
+        },
+        {
+            "server": "13.49.22.104",
+            "server_port": 22222,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 6844",
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk"
             },
             "transport": {
                 "headers": {
-                    "Host": "inputbugwildcard.cloudproxyip.my.id.loss.cloudproxyip.my.id"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 },
-                "path": "/Free-CF-Proxy-FR8",
+                "path": "/telegram-channel-vlessconfig-ws",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "f5352773-b7b0-4ce3-9de7-21562ba8890d"
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e"
         },
         {
-            "password": "telegram-id-privatevpns",
-            "server": "35.157.219.204",
-            "server_port": 22222,
-            "tag": "netflix_DE",
+            "server": "104.26.5.32",
+            "server_port": 8443,
+            "tag": "🔥Join Telegram:@FarahVPN🟣 6823",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
+                "server_name": "usa.v2ray.com.br"
             },
-            "type": "trojan"
+            "transport": {
+                "headers": {
+                    "Host": "usa.v2ray.com.br"
+                },
+                "path": "/russian",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "ee29fa1d-a706-4035-bea1-ae1f73845f65"
+        },
+        {
+            "server": "144.168.61.31",
+            "server_port": 443,
+            "tag": "@MxlShare 美国 | USA 47",
+            "tls": {
+                "enabled": true,
+                "server_name": "usb.xzncr.asia"
+            },
+            "transport": {
+                "headers": {
+                    "Host": "usb.xzncr.asia"
+                },
+                "path": "/bing",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "794670f1-4361-4a23-bcd2-9d67b469bc83"
         },
         {
             "password": "be758973-186d-46fe-8aa4-e017134fa291",
             "server": "31.186.87.211",
             "server_port": 4029,
-            "tag": "🇵🇱PL_16",
+            "tag": "@MxlShare 波兰 | POL",
             "tls": {
                 "enabled": true,
                 "insecure": true,
@@ -763,33 +1384,43 @@
             "type": "hysteria2"
         },
         {
-            "password": "telegram-id-privatevpns",
-            "server": "13.37.163.155",
-            "server_port": 22222,
-            "tag": "🇫🇷FR_110",
+            "password": "a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8",
+            "server": "207.180.248.7",
+            "server_port": 37732,
+            "tag": "@MxlShare 德国 | DEU 3",
             "tls": {
                 "enabled": true,
                 "insecure": true,
-                "server_name": "trojan.burgerip.co.uk"
+                "server_name": "www.bing.com"
             },
-            "type": "trojan"
+            "type": "hysteria2"
         },
         {
-            "alter_id": 64,
-            "security": "auto",
-            "server": "38.14.107.226",
-            "server_port": 38003,
-            "tag": "Relay_🇺🇸US-🇺🇸US_164 |26.56Mb",
+            "obfs": {
+                "password": "hsdirhrrkskdhebdjdj",
+                "type": "salamander"
+            },
+            "password": "MICPT1LLn6",
+            "server": "161.97.108.42",
+            "server_port": 44140,
+            "tag": "@MxlShare 德国 | DEU 2",
             "tls": {
                 "enabled": true,
                 "insecure": true
             },
-            "transport": {
-                "path": "/path/340434130032",
-                "type": "ws"
+            "type": "hysteria2"
+        },
+        {
+            "password": "wT6ydpR9hrVKXvbMnrHwOoRLeBM",
+            "server": "18.217.36.213",
+            "server_port": 25534,
+            "tag": "@MxlShare 美国 | USA 22",
+            "tls": {
+                "enabled": true,
+                "insecure": true,
+                "server_name": "bing.com"
             },
-            "type": "vmess",
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24"
+            "type": "hysteria2"
         }
     ],
     "route": {
