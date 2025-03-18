@@ -342,7 +342,17 @@
                 "outbound": "节点选择"
             },
             {
-                "port": 853,
+                "type": "logical",
+                "mode": "or",
+                "rules": [
+                    {
+                        "port": 853
+                    },
+                    {
+                        "network": "udp",
+                        "port": 443
+                    }
+                ],
                 "action": "reject"
             },
             {
@@ -363,20 +373,6 @@
                 "rule_set": "geosite-chat",
                 "action": "route",
                 "outbound": "OpenAI"
-            },
-            {
-                "type": "logical",
-                "mode": "and",
-                "rules": [
-                    {
-                        "rule_set": "geosite-youtube"
-                    },
-                    {
-                        "network": "udp",
-                        "port": 443
-                    }
-                ],
-                "action": "reject"
             },
             {
                 "rule_set": "geosite-youtube",
