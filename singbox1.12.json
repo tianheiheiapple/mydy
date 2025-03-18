@@ -1,21 +1,42 @@
 {
     "log": {
-        "level": "error",
+        "disabled": false,
+        "level": "warn",
         "timestamp": true
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": false
+        },
+        "clash_api": {
+            "external_controller": "127.0.0.1:9095",
+            "external_ui": "ui",
+            "external_ui_download_url": "https://ghfast.top/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+            "external_ui_download_detour": "全球直连",
+            "default_mode": "rule"
+        }
     },
     "dns": {
         "servers": [
             {
-                "tag": "google",
-                "type": "tls",
-                "server": "1.1.1.1",
-                "detour": "Proxy"
+                "tag": "dns-remote",
+                "type": "h3",
+                "server": "8.8.8.8",
+                "headers": {
+                    "Host": "dns.google"
+                },
+                "tls": {
+                    "enabled": true,
+                    "disable_sni": false,
+                    "server_name": "dns.google"
+                },
+                "detour": "节点选择"
             },
             {
-                "tag": "local",
-                "type": "https",
-                "detour": "direct",
-                "server": "223.6.6.6"
+                "tag": "dns-local",
+                "type": "local",
+                "detour": "全球直连"
             },
             {
                 "tag": "fakeip",
@@ -26,24 +47,21 @@
         ],
         "rules": [
             {
-                "clash_mode": "direct",
-                "server": "local"
+                "clash_mode": "Direct",
+                "action": "route",
+                "server": "dns-local",
+                "strategy": "ipv4_only"
             },
             {
-                "clash_mode": "global",
-                "server": "google"
-            },
-            {
-                "query_type": [
-                    "A",
-                    "AAAA"
-                ],
-                "rule_set": "geosite-cn",
-                "server": "fakeip"
+                "clash_mode": "Global",
+                "action": "route",
+                "server": "dns-remote"
             },
             {
                 "rule_set": "geosite-cn",
-                "server": "local"
+                "action": "route",
+                "server": "dns-local",
+                "strategy": "ipv4_only"
             },
             {
                 "type": "logical",
@@ -57,36 +75,41 @@
                         "rule_set": "geoip-cn"
                     }
                 ],
-                "server": "google",
-                "client_subnet": "114.114.114.114/24"
+                "action": "route",
+                "server": "dns-remote",
+                "client_subnet": "61.141.249.0"
             },
             {
                 "query_type": [
                     "A",
                     "AAAA"
                 ],
+                "action": "route",
+                "disable_cache": true,
                 "server": "fakeip"
             }
         ],
-        "strategy": "prefer_ipv4",
+        "final": "dns-remote",
         "independent_cache": true
     },
     "inbounds": [
         {
             "tag": "tun-in",
             "type": "tun",
+            "stack": "mixed",
+            "mtu": 1450,
             "address": [
-                "172.19.0.0/30",
-                "fdfe:dcba:9876::0/126"
+                "172.19.0.1/28",
+                "fdfe:2952:8964::1/126"
             ],
-            "stack": "system",
+            "endpoint_independent_nat": true,
             "auto_route": true,
             "strict_route": true,
             "platform": {
                 "http_proxy": {
                     "enabled": true,
                     "server": "127.0.0.1",
-                    "server_port": 7890
+                    "server_port": 18193
                 }
             }
         },
@@ -94,886 +117,103 @@
             "tag": "mixed-in",
             "type": "mixed",
             "listen": "127.0.0.1",
-            "listen_port": 7890
+            "listen_port": 18193
         }
     ],
     "outbounds": [
         {
-            "tag": "Proxy",
+            "tag": "节点选择",
             "type": "selector",
             "outbounds": [
-                "auto",
-                "direct",
-                "手动选择"
+                "手动切换",
+                "全球直连"
             ]
+        },
+        {
+            "tag": "YouTube",
+            "type": "selector",
+            "outbounds": [
+                "节点选择",
+                "手动切换",
+                "手动切换二"
+            ],
+            "default": "节点选择"
         },
         {
             "tag": "OpenAI",
             "type": "selector",
             "outbounds": [
-                "Proxy",
-                "direct"
-            ]
+                "节点选择",
+                "手动切换",
+                "手动切换二"
+            ],
+            "default": "节点选择"
         },
         {
             "tag": "Google",
             "type": "selector",
             "outbounds": [
-                "Proxy",
-                "direct"
-            ]
+                "节点选择",
+                "手动切换",
+                "手动切换二"
+            ],
+            "default": "节点选择"
         },
         {
             "tag": "Telegram",
             "type": "selector",
             "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Twitter",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Facebook",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "BiliBili",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Bahamut",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Spotify",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "TikTok",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Netflix",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Disney+",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Apple",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Microsoft",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Games",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Streaming",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "Global",
-            "type": "selector",
-            "outbounds": [
-                "Proxy",
-                "direct"
-            ]
-        },
-        {
-            "tag": "China",
-            "type": "selector",
-            "outbounds": [
-                "direct",
-                "Proxy"
-            ]
-        },
-        {
-            "tag": "手动选择",
-            "type": "selector",
-            "outbounds": [
-                "🇷🇺 俄罗斯 | RUS 11",
-                "🇷🇺 俄罗斯 | RUS 16",
-                "🇷🇺 俄罗斯 | RUS 18",
-                "🇷🇺 俄罗斯 | RUS 20",
-                "🇷🇺 俄罗斯 | RUS 29",
-                "🇷🇺 俄罗斯 | RUS 24",
-                "🇷🇺 俄罗斯 | RUS 25",
-                "🇷🇺 俄罗斯 | RUS 32",
-                "🇷🇺 俄罗斯 | RUS 31",
-                "🇷🇺 俄罗斯 | RUS 34",
-                "🇷🇺 俄罗斯 | RUS 39",
-                "🇷🇺 俄罗斯 | RUS 47",
-                "🇷🇺 俄罗斯 | RUS 41",
-                "🇷🇺 俄罗斯 | RUS 54",
-                "🇷🇺 俄罗斯 | RUS 43",
-                "🇷🇺 俄罗斯 | RUS 48",
-                "🇷🇺 俄罗斯 | RUS 58",
-                "🇺🇸 美国 | USA 2",
-                "🇺🇸 美国 | USA 12",
-                "🇺🇸 美国 | USA 8",
-                "🇺🇸 美国 | USA 19",
-                "🇺🇸 美国 | USA 26",
-                "🇺🇸 美国 | USA 29",
-                "🇺🇸 美国 | USA 50",
-                "🇺🇸 美国 | USA 42",
-                "🇺🇸 美国 | USA 36",
-                "🇺🇸 美国 | USA 38",
-                "🇺🇸 美国 | USA 59",
-                "🇺🇸 美国 | USA 61",
-                "🇺🇸 美国 | USA 62",
-                "🇺🇸 美国 | USA 68",
-                "🇺🇸 美国 | USA 70",
-                "🇺🇸 美国 | USA 74",
-                "🇺🇸 美国 | USA 78",
-                "🔥Join Telegram:@FarahVPN🟣 2",
-                "US_Los Angeles_PEG TECH INC_OpenAI_Claude",
-                "US_Santa Clara_PEG TECH INC_OpenAI_Claude",
-                "🔥Join Telegram:@FarahVPN🟣 194",
-                "🔥Join Telegram:@FarahVPN🟣 667",
-                "🔥Join Telegram:@FarahVPN🟣 904",
-                "🔥Join Telegram:@FarahVPN🟣 1181",
-                "🔥Join Telegram:@FarahVPN🟣 1487",
-                "🔥Join Telegram:@FarahVPN🟣 1853",
-                "🔥Join Telegram:@FarahVPN🟣 2301",
-                "🔥Join Telegram:@FarahVPN🟣 2414",
-                "🔥Join Telegram:@FarahVPN🟣 2953",
-                "🔥Join Telegram:@FarahVPN🟣 3824",
-                "🔥Join Telegram:@FarahVPN🟣 3955",
-                "🔥Join Telegram:@FarahVPN🟣 4449",
-                "🔥Join Telegram:@FarahVPN🟣 4511",
-                "🔥Join Telegram:@FarahVPN🟣 5054",
-                "🔥Join Telegram:@FarahVPN🟣 5274",
-                "🔥Join Telegram:@FarahVPN🟣 5871",
-                "🔥Join Telegram:@FarahVPN🟣 5996",
-                "🔥Join Telegram:@FarahVPN🟣 6473",
-                "🔥Join Telegram:@FarahVPN🟣 6844",
-                "🔥Join Telegram:@FarahVPN🟣 6823",
-                "@MxlShare 美国 | USA 47",
-                "@MxlShare 波兰 | POL",
-                "@MxlShare 德国 | DEU 3",
-                "@MxlShare 德国 | DEU 2",
-                "@MxlShare 美国 | USA 22"
-            ]
-        },
-        {
-            "tag": "auto",
-            "type": "urltest",
-            "outbounds": [
-                "🇷🇺 俄罗斯 | RUS 11",
-                "🇷🇺 俄罗斯 | RUS 16",
-                "🇷🇺 俄罗斯 | RUS 18",
-                "🇷🇺 俄罗斯 | RUS 20",
-                "🇷🇺 俄罗斯 | RUS 29",
-                "🇷🇺 俄罗斯 | RUS 24",
-                "🇷🇺 俄罗斯 | RUS 25",
-                "🇷🇺 俄罗斯 | RUS 32",
-                "🇷🇺 俄罗斯 | RUS 31",
-                "🇷🇺 俄罗斯 | RUS 34",
-                "🇷🇺 俄罗斯 | RUS 39",
-                "🇷🇺 俄罗斯 | RUS 47",
-                "🇷🇺 俄罗斯 | RUS 41",
-                "🇷🇺 俄罗斯 | RUS 54",
-                "🇷🇺 俄罗斯 | RUS 43",
-                "🇷🇺 俄罗斯 | RUS 48",
-                "🇷🇺 俄罗斯 | RUS 58",
-                "🇺🇸 美国 | USA 2",
-                "🇺🇸 美国 | USA 12",
-                "🇺🇸 美国 | USA 8",
-                "🇺🇸 美国 | USA 19",
-                "🇺🇸 美国 | USA 26",
-                "🇺🇸 美国 | USA 29",
-                "🇺🇸 美国 | USA 50",
-                "🇺🇸 美国 | USA 42",
-                "🇺🇸 美国 | USA 36",
-                "🇺🇸 美国 | USA 38",
-                "🇺🇸 美国 | USA 59",
-                "🇺🇸 美国 | USA 61",
-                "🇺🇸 美国 | USA 62",
-                "🇺🇸 美国 | USA 68",
-                "🇺🇸 美国 | USA 70",
-                "🇺🇸 美国 | USA 74",
-                "🇺🇸 美国 | USA 78",
-                "🔥Join Telegram:@FarahVPN🟣 2",
-                "US_Los Angeles_PEG TECH INC_OpenAI_Claude",
-                "US_Santa Clara_PEG TECH INC_OpenAI_Claude",
-                "🔥Join Telegram:@FarahVPN🟣 194",
-                "🔥Join Telegram:@FarahVPN🟣 667",
-                "🔥Join Telegram:@FarahVPN🟣 904",
-                "🔥Join Telegram:@FarahVPN🟣 1181",
-                "🔥Join Telegram:@FarahVPN🟣 1487",
-                "🔥Join Telegram:@FarahVPN🟣 1853",
-                "🔥Join Telegram:@FarahVPN🟣 2301",
-                "🔥Join Telegram:@FarahVPN🟣 2414",
-                "🔥Join Telegram:@FarahVPN🟣 2953",
-                "🔥Join Telegram:@FarahVPN🟣 3824",
-                "🔥Join Telegram:@FarahVPN🟣 3955",
-                "🔥Join Telegram:@FarahVPN🟣 4449",
-                "🔥Join Telegram:@FarahVPN🟣 4511",
-                "🔥Join Telegram:@FarahVPN🟣 5054",
-                "🔥Join Telegram:@FarahVPN🟣 5274",
-                "🔥Join Telegram:@FarahVPN🟣 5871",
-                "🔥Join Telegram:@FarahVPN🟣 5996",
-                "🔥Join Telegram:@FarahVPN🟣 6473",
-                "🔥Join Telegram:@FarahVPN🟣 6844",
-                "🔥Join Telegram:@FarahVPN🟣 6823",
-                "@MxlShare 美国 | USA 47",
-                "@MxlShare 波兰 | POL",
-                "@MxlShare 德国 | DEU 3",
-                "@MxlShare 德国 | DEU 2",
-                "@MxlShare 美国 | USA 22"
+                "节点选择",
+                "手动切换",
+                "手动切换二"
             ],
-            "url": "http://www.gstatic.com/generate_204",
-            "interval": "20m",
-            "tolerance": 50
+            "default": "节点选择"
         },
         {
-            "type": "direct",
-            "tag": "direct"
+            "tag": "漏网之鱼",
+            "type": "selector",
+            "outbounds": [
+                "节点选择",
+                "手动切换",
+                "全球直连"
+            ],
+            "default": "节点选择"
         },
         {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "ad72c96b-86a5-4fbc-bc7a-883abb5e8636",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 11",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
+            "tag": "手动切换",
+            "type": "selector",
+            "outbounds": [
+                "US_Los Angeles_PEG TECH INC_OpenAI_Claude",
+                "🔥Join Telegram:@FarahVPN🟣 1044",
+                "🔥Join Telegram:@FarahVPN🟣 1487",
+                "🔥Join Telegram:@FarahVPN🟣 1793",
+                "🔥Join Telegram:@FarahVPN🟣 1987",
+                "🔥Join Telegram:@FarahVPN🟣 5871",
+                "🔥Join Telegram:@FarahVPN🟣 6525",
+                "@MxlShare 德国 | DEU 3",
+                "@MxlShare 波兰 | POL",
+                "@MxlShare 美国 | USA 21"
+            ]
         },
         {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "2cae1b54-57f2-42b6-9ebb-99db1b58fd8d",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 16",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
+            "tag": "手动切换二",
+            "type": "selector",
+            "outbounds": [
+                "US_Los Angeles_PEG TECH INC_OpenAI_Claude",
+                "🔥Join Telegram:@FarahVPN🟣 1044",
+                "🔥Join Telegram:@FarahVPN🟣 1487",
+                "🔥Join Telegram:@FarahVPN🟣 1793",
+                "🔥Join Telegram:@FarahVPN🟣 1987",
+                "🔥Join Telegram:@FarahVPN🟣 5871",
+                "🔥Join Telegram:@FarahVPN🟣 6525",
+                "@MxlShare 德国 | DEU 3",
+                "@MxlShare 波兰 | POL",
+                "@MxlShare 美国 | USA 21"
+            ]
         },
         {
-            "down_mbps": 100,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "b3fda0c1-b53d-4454-be81-976a77994e1d",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 18",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 100
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "2933a2fc-0d38-4edd-ac10-fa769cfb59a8",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 20",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "dfe9af18-36a8-4a2a-a1fe-626ffb24b440",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 29",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "4ff2a370-a369-49bd-b323-12781dbb20f9",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 24",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "3ca4aac0-ee93-48bf-b5cf-4bf96435f1c2",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 25",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "7d70eb0d-6223-4bb1-9769-5f2251451927",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 32",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "0e29dcfa-ef98-4767-ac80-4135961fb7af",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 31",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 100,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "0a7ca26f-9e4f-46a6-b64c-9e10d9195d32",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 34",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 100
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "baafc1b7-28d0-4430-a861-d7464077ab18",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 39",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "beb844a5-a99a-4cd0-8c23-b20527305355",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 47",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "4d2845af-f33a-4ca6-bfde-33e9b7f300cf",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 41",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "638d7c3f-500f-4690-ad57-f0404c12360f",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 54",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "38360c10-7f25-43c0-9fcb-a58ae6f7ef4f",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 43",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "b84d4f00-ad98-4ca9-878f-67eb37f1b148",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 48",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "27de7dbb-d82e-44e7-90b8-25dcb264f883",
-            "server": "185.22.152.236",
-            "server_port": 33007,
-            "tag": "🇷🇺 俄罗斯 | RUS 58",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "638d7c3f-500f-4690-ad57-f0404c12360f",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 2",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "38360c10-7f25-43c0-9fcb-a58ae6f7ef4f",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 12",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "4ff2a370-a369-49bd-b323-12781dbb20f9",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 8",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "baafc1b7-28d0-4430-a861-d7464077ab18",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 19",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "7d70eb0d-6223-4bb1-9769-5f2251451927",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 26",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "ad72c96b-86a5-4fbc-bc7a-883abb5e8636",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 29",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 100,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "c0514f23-c68d-4c4b-8569-689656cfa3be",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 50",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 100
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "2cae1b54-57f2-42b6-9ebb-99db1b58fd8d",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 42",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "b84d4f00-ad98-4ca9-878f-67eb37f1b148",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 36",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "beb844a5-a99a-4cd0-8c23-b20527305355",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 38",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "2933a2fc-0d38-4edd-ac10-fa769cfb59a8",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 59",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "27de7dbb-d82e-44e7-90b8-25dcb264f883",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 61",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "0e29dcfa-ef98-4767-ac80-4135961fb7af",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 62",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 100,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "0a7ca26f-9e4f-46a6-b64c-9e10d9195d32",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 68",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 100
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "4d2845af-f33a-4ca6-bfde-33e9b7f300cf",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 70",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "3ca4aac0-ee93-48bf-b5cf-4bf96435f1c2",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 74",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "down_mbps": 15,
-            "obfs": {
-                "password": "NDhhNmY5YTY0MGYzOTgxYQ==",
-                "type": "salamander"
-            },
-            "password": "dfe9af18-36a8-4a2a-a1fe-626ffb24b440",
-            "server": "207.90.237.96",
-            "server_port": 33006,
-            "tag": "🇺🇸 美国 | USA 78",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "up_mbps": 15
-        },
-        {
-            "server": "129.159.241.172",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 2",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135004002.sec20org.com"
-            },
-            "type": "vless",
-            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
+            "tag": "全球直连",
+            "type": "direct"
         },
         {
             "password": "fbd550df-3838-482a-b2f1-1e7e8293a922",
@@ -988,77 +228,15 @@
             "type": "hysteria2"
         },
         {
-            "password": "3e9bc412-6c40-4f68-9a31-fdd20c81a87c",
-            "server": "104.233.211.26",
-            "server_port": 40837,
-            "tag": "US_Santa Clara_PEG TECH INC_OpenAI_Claude",
-            "tls": {
-                "alpn": "h3",
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "server": "193.9.49.241",
+            "server": "15.204.192.150",
             "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 194",
+            "tag": "🔥Join Telegram:@FarahVPN🟣 1044",
             "tls": {
                 "enabled": true,
-                "server_name": "eua.kobtty.me"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "eua.kobtty.me"
-                },
-                "path": "/bing",
-                "type": "ws"
+                "server_name": "147135010072.sec21org.com"
             },
             "type": "vless",
-            "uuid": "cd01db3b-4b0a-4718-98dd-1d38f55be03f"
-        },
-        {
-            "password": "telegram-id-directvpn",
-            "server": "13.39.34.109",
-            "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 667",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
-        },
-        {
-            "server": "162.159.152.2",
-            "server_port": 2087,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 904",
-            "tls": {
-                "alpn": "h2%2Chttp%2F1.1",
-                "enabled": true,
-                "server_name": "tP256KM2RO.YazahrA1.info"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "tP256KM2RO.YazahrA1.info"
-                },
-                "path": "/",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9"
-        },
-        {
-            "password": "telegram-id-directvpn",
-            "server": "35.176.229.151",
-            "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 1181",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
+            "uuid": "c4fa89d4-fcb9-48ba-adbc-665181cc817f"
         },
         {
             "server": "135.148.74.155",
@@ -1072,195 +250,26 @@
             "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
         },
         {
-            "server": "104.215.58.230",
+            "server": "144.24.243.207",
             "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 1853",
+            "tag": "🔥Join Telegram:@FarahVPN🟣 1793",
             "tls": {
                 "enabled": true,
-                "server_name": "gkkui8.azurewebsites.net"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "gkkui8.azurewebsites.net"
-                },
-                "path": "/",
-                "type": "ws"
+                "server_name": "147135004002.sec20org.com"
             },
             "type": "vless",
-            "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f"
+            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
         },
         {
-            "password": "telegram-id-directvpn",
-            "server": "34.243.149.238",
-            "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 2301",
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk"
-            },
-            "type": "trojan"
-        },
-        {
-            "server": "35.179.217.75",
-            "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 2414",
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                },
-                "path": "/telegram-channel-vlessconfig-ws",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e"
-        },
-        {
-            "server": "104.21.39.204",
+            "server": "192.9.236.144",
             "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 2953",
-            "tls": {
-                "alpn": "http%2F1.1",
-                "enabled": true,
-                "server_name": "nY.360832.xYz"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "nY.360832.xYz"
-                },
-                "path": "/mxgPEgOLj8iAp1tHdIGP3",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "5f5fe97a-73ee-4584-87cb-1e5cd510d572"
-        },
-        {
-            "server": "85.192.28.89",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 3824",
-            "tls": {
-                "alpn": "h2",
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Hng90MObJ5OBtIrfrf6U02WIx36R9srHLBwRsj1r7Dw",
-                    "short_id": "05a6d4aa5e314637"
-                },
-                "server_name": "stackoverflow.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "service_name": "yZ1aB2cC3dD4eE5f6gH7iJ8kL9mNOoP",
-                "type": "grpc"
-            },
-            "type": "vless",
-            "uuid": "a76988d9-d0cc-4961-b050-854cecdc1106"
-        },
-        {
-            "server": "172.64.150.8",
-            "server_port": 8443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 3955",
+            "tag": "🔥Join Telegram:@FarahVPN🟣 1987",
             "tls": {
                 "enabled": true,
-                "server_name": "usa.v2ray.com.br"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "usa.v2ray.com.br"
-                },
-                "path": "/russian",
-                "type": "ws"
+                "server_name": "147135004002.sec20org.com"
             },
             "type": "vless",
-            "uuid": "ee29fa1d-a706-4035-bea1-ae1f73845f65"
-        },
-        {
-            "server": "104.26.15.16",
-            "server_port": 2083,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 4449",
-            "tls": {
-                "alpn": "h2,http/1.1",
-                "enabled": true,
-                "server_name": "bEAt.MIRaclETaxbiTS.Top."
-            },
-            "transport": {
-                "headers": {
-                    "Host": "bEAt.MIRaclETaxbiTS.Top."
-                },
-                "path": "/2083/@VRayyNGvpn",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "cadf0483-c628-48d7-9267-514badbbdbb7"
-        },
-        {
-            "server": "178.62.112.47",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 4511",
-            "tls": {
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ya3K9Ddp7WYOnePuHUG1h83Dkp3i0E3OxrohUWn0a38"
-                },
-                "server_name": "TGju.org",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "type": "vless",
-            "uuid": "670be98f-176a-4a21-82f9-d516c0e04232"
-        },
-        {
-            "server": "209.227.230.243",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 5054",
-            "tls": {
-                "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4",
-                    "short_id": "c5508bd7"
-                },
-                "server_name": "wordpress.org",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl",
-                "type": "grpc"
-            },
-            "type": "vless",
-            "uuid": "253f59da-b708-4404-cebe-3854aad88880"
-        },
-        {
-            "server": "172.67.69.236",
-            "server_port": 2083,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 5274",
-            "tls": {
-                "alpn": "h2,http/1.1",
-                "enabled": true,
-                "server_name": "bEAt.MIRaclETaxbiTS.Top."
-            },
-            "transport": {
-                "headers": {
-                    "Host": "bEAt.MIRaclETaxbiTS.Top."
-                },
-                "path": "/2083/@VRayyNGvpn",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "cadf0483-c628-48d7-9267-514badbbdbb7"
+            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
         },
         {
             "flow": "xtls-rprx-vision",
@@ -1283,105 +292,22 @@
             "uuid": "e657e5fb-c417-4d3f-d84e-a3a8f010f9fa"
         },
         {
-            "server": "194.182.84.53",
+            "server": "104.25.140.153",
             "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 5996",
+            "tag": "🔥Join Telegram:@FarahVPN🟣 6525",
             "tls": {
                 "enabled": true,
-                "reality": {
-                    "enabled": true,
-                    "public_key": "DpSW8adQoMP_hcXxdAGD6PPdrHuwYbFomzJmBmtsqxM",
-                    "short_id": "e3f189ed"
-                },
-                "server_name": "wordpress.org",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl",
-                "type": "grpc"
-            },
-            "type": "vless",
-            "uuid": "3743e72f-a5f2-4b4f-a38e-7f7299a54028"
-        },
-        {
-            "server": "135.148.211.8",
-            "server_port": 443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 6473",
-            "tls": {
-                "enabled": true,
-                "server_name": "147135010103.sec19org.com"
-            },
-            "type": "vless",
-            "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40"
-        },
-        {
-            "server": "13.49.22.104",
-            "server_port": 22222,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 6844",
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk"
+                "server_name": "BPB-pANEL-En-1O0.pAges.DEV"
             },
             "transport": {
                 "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                    "Host": "BPB-pANEL-En-1O0.pAges.DEV"
                 },
-                "path": "/telegram-channel-vlessconfig-ws",
+                "path": "/",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e"
-        },
-        {
-            "server": "104.26.5.32",
-            "server_port": 8443,
-            "tag": "🔥Join Telegram:@FarahVPN🟣 6823",
-            "tls": {
-                "enabled": true,
-                "server_name": "usa.v2ray.com.br"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "usa.v2ray.com.br"
-                },
-                "path": "/russian",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "ee29fa1d-a706-4035-bea1-ae1f73845f65"
-        },
-        {
-            "server": "144.168.61.31",
-            "server_port": 443,
-            "tag": "@MxlShare 美国 | USA 47",
-            "tls": {
-                "enabled": true,
-                "server_name": "usb.xzncr.asia"
-            },
-            "transport": {
-                "headers": {
-                    "Host": "usb.xzncr.asia"
-                },
-                "path": "/bing",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "794670f1-4361-4a23-bcd2-9d67b469bc83"
-        },
-        {
-            "password": "be758973-186d-46fe-8aa4-e017134fa291",
-            "server": "31.186.87.211",
-            "server_port": 4029,
-            "tag": "@MxlShare 波兰 | POL",
-            "tls": {
-                "enabled": true,
-                "insecure": true,
-                "server_name": "www.bing.com"
-            },
-            "type": "hysteria2"
+            "uuid": "f9f52055-ff98-4f3c-baa4-869864503e1e"
         },
         {
             "password": "a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8",
@@ -1396,41 +322,33 @@
             "type": "hysteria2"
         },
         {
-            "obfs": {
-                "password": "hsdirhrrkskdhebdjdj",
-                "type": "salamander"
-            },
-            "password": "MICPT1LLn6",
-            "server": "161.97.108.42",
-            "server_port": 44140,
-            "tag": "@MxlShare 德国 | DEU 2",
+            "password": "be758973-186d-46fe-8aa4-e017134fa291",
+            "server": "31.186.87.211",
+            "server_port": 4029,
+            "tag": "@MxlShare 波兰 | POL",
             "tls": {
                 "enabled": true,
-                "insecure": true
+                "insecure": true,
+                "server_name": "www.bing.com"
             },
             "type": "hysteria2"
         },
         {
-            "password": "wT6ydpR9hrVKXvbMnrHwOoRLeBM",
-            "server": "18.217.36.213",
-            "server_port": 25534,
-            "tag": "@MxlShare 美国 | USA 22",
+            "server": "51.81.37.29",
+            "server_port": 443,
+            "tag": "@MxlShare 美国 | USA 21",
             "tls": {
                 "enabled": true,
-                "insecure": true,
-                "server_name": "bing.com"
+                "server_name": "147135004002.sec20org.com"
             },
-            "type": "hysteria2"
+            "type": "vless",
+            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055"
         }
     ],
     "route": {
-        "default_domain_resolver": {
-            "server": "local",
-            "rewrite_tll": 60,
-            "client_subnet": "1.1.1.1"
-        },
         "auto_detect_interface": true,
-        "final": "Proxy",
+        "default_domain_resolver": "dns-local",
+        "final": "漏网之鱼",
         "rules": [
             {
                 "inbound": [
@@ -1444,31 +362,41 @@
                 "mode": "or",
                 "rules": [
                     {
-                        "port": 53
+                        "protocol": "dns"
                     },
                     {
-                        "protocol": "dns"
+                        "port": 53
                     }
                 ],
                 "action": "hijack-dns"
             },
             {
-                "rule_set": "geosite-category-ads-all",
-                "clash_mode": "rule",
+                "clash_mode": "Direct",
+                "action": "route",
+                "outbound": "全球直连"
+            },
+            {
+                "clash_mode": "Global",
+                "action": "route",
+                "outbound": "节点选择"
+            },
+            {
+                "type": "logical",
+                "mode": "or",
+                "rules": [
+                    {
+                        "network": "udp",
+                        "port": 443
+                    },
+                    {
+                        "port": 853
+                    }
+                ],
                 "action": "reject"
             },
             {
-                "rule_set": "geosite-category-ads-all",
-                "clash_mode": "global",
-                "outbound": "Proxy"
-            },
-            {
-                "clash_mode": "direct",
-                "outbound": "direct"
-            },
-            {
-                "clash_mode": "global",
-                "outbound": "Proxy"
+                "ip_is_private": true,
+                "outbound": "全球直连"
             },
             {
                 "domain": [
@@ -1477,23 +405,25 @@
                     "yacd.haishan.me",
                     "d.metacubex.one"
                 ],
-                "outbound": "direct"
+                "action": "route",
+                "outbound": "全球直连"
             },
             {
-                "ip_is_private": true,
-                "outbound": "direct"
-            },
-            {
-                "rule_set": "geosite-openai",
+                "rule_set": "geosite-chat",
+                "action": "route",
                 "outbound": "OpenAI"
             },
             {
+                "rule_set": "geosite-youtube",
+                "action": "route",
+                "outbound": "YouTube"
+            },
+            {
                 "rule_set": [
-                    "geosite-youtube",
                     "geoip-google",
-                    "geosite-google",
-                    "geosite-github"
+                    "geosite-google"
                 ],
+                "action": "route",
                 "outbound": "Google"
             },
             {
@@ -1501,313 +431,99 @@
                     "geoip-telegram",
                     "geosite-telegram"
                 ],
+                "action": "route",
                 "outbound": "Telegram"
             },
             {
-                "rule_set": [
-                    "geoip-twitter",
-                    "geosite-twitter"
-                ],
-                "outbound": "Twitter"
-            },
-            {
-                "rule_set": [
-                    "geoip-facebook",
-                    "geosite-facebook"
-                ],
-                "outbound": "Facebook"
-            },
-            {
-                "rule_set": "geosite-bilibili",
-                "outbound": "BiliBili"
-            },
-            {
-                "rule_set": "geosite-bahamut",
-                "outbound": "Bahamut"
-            },
-            {
-                "rule_set": "geosite-spotify",
-                "outbound": "Spotify"
-            },
-            {
-                "rule_set": "geosite-tiktok",
-                "outbound": "TikTok"
-            },
-            {
-                "rule_set": [
-                    "geoip-netflix",
-                    "geosite-netflix"
-                ],
-                "outbound": "Netflix"
-            },
-            {
-                "rule_set": "geosite-disney",
-                "outbound": "Disney+"
-            },
-            {
-                "rule_set": [
-                    "geoip-apple",
-                    "geosite-apple",
-                    "geosite-amazon"
-                ],
-                "outbound": "Apple"
-            },
-            {
-                "rule_set": "geosite-microsoft",
-                "outbound": "Microsoft"
-            },
-            {
-                "rule_set": [
-                    "geosite-category-games",
-                    "geosite-dmm"
-                ],
-                "outbound": "Games"
-            },
-            {
-                "rule_set": [
-                    "geosite-hbo",
-                    "geosite-primevideo"
-                ],
-                "outbound": "Streaming"
-            },
-            {
                 "rule_set": "geosite-geolocation-!cn",
-                "outbound": "Global"
+                "action": "route",
+                "outbound": "节点选择"
             },
             {
                 "rule_set": [
                     "geoip-cn",
                     "geosite-cn"
                 ],
-                "outbound": "China"
+                "action": "route",
+                "outbound": "全球直连"
+            },
+            {
+                "action": "resolve"
             }
         ],
         "rule_set": [
             {
-                "tag": "geosite-category-ads-all",
+                "tag": "geosite-chat",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-openai",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs",
-                "download_detour": "direct"
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-chat-!cn.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
             },
             {
                 "tag": "geosite-youtube",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geoip-google",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs",
-                "download_detour": "direct"
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
             },
             {
                 "tag": "geosite-google",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-github",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/github.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geoip-telegram",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
-                "download_detour": "direct"
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
             },
             {
                 "tag": "geosite-telegram",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geoip-twitter",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/twitter.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-twitter",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/twitter.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geoip-facebook",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/facebook.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-facebook",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/facebook.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-bilibili",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bilibili.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-bahamut",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-spotify",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/spotify.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-tiktok",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geoip-netflix",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-netflix",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-disney",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/disney.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geoip-apple",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-apple",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-amazon",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/amazon.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-microsoft",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/microsoft.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-category-games",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-games.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-dmm",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/dmm.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-hbo",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/hbo.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-primevideo",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/primevideo.srs",
-                "download_detour": "direct"
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
             },
             {
                 "tag": "geosite-geolocation-!cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geoip-cn",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs",
-                "download_detour": "direct"
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
             },
             {
                 "tag": "geosite-cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
-                "download_detour": "direct"
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
+            },
+            {
+                "tag": "geoip-google",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
+            },
+            {
+                "tag": "geoip-telegram",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
+            },
+            {
+                "tag": "geoip-cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://ghfast.top/https://raw.github.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs",
+                "download_detour": "全球直连",
+                "update_interval": "3d"
             }
         ]
-    },
-    "experimental": {
-        "clash_api": {
-            "external_controller": "127.0.0.1:9090",
-            "external_ui": "ui",
-            "secret": "",
-            "external_ui_download_url": "https://ghproxy.cn/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
-            "external_ui_download_detour": "direct",
-            "default_mode": "rule"
-        },
-        "cache_file": {
-            "enabled": true,
-            "store_fakeip": true,
-            "store_rdrc": true
-        }
     }
 }
