@@ -6,8 +6,7 @@
     },
     "experimental": {
         "cache_file": {
-            "enabled": true,
-            "store_fakeip": false
+            "enabled": true
         },
         "clash_api": {
             "external_controller": "127.0.0.1:9095",
@@ -21,28 +20,15 @@
         "servers": [
             {
                 "tag": "dns-remote",
-                "type": "h3",
+                "type": "https",
                 "server": "8.8.8.8",
-                "headers": {
-                    "Host": "dns.google"
-                },
-                "tls": {
-                    "enabled": true,
-                    "disable_sni": false,
-                    "server_name": "dns.google"
-                },
                 "detour": "节点选择"
             },
             {
                 "tag": "dns-local",
-                "type": "local",
+                "type": "https",
+                "server": "223.5.5.5",
                 "detour": "全球直连"
-            },
-            {
-                "tag": "fakeip",
-                "type": "fakeip",
-                "inet4_range": "198.18.0.0/15",
-                "inet6_range": "fc00::/18"
             }
         ],
         "rules": [
@@ -78,15 +64,6 @@
                 "action": "route",
                 "server": "dns-remote",
                 "client_subnet": "61.141.249.0"
-            },
-            {
-                "query_type": [
-                    "A",
-                    "AAAA"
-                ],
-                "action": "route",
-                "disable_cache": true,
-                "server": "fakeip"
             }
         ],
         "final": "dns-remote",
@@ -104,20 +81,7 @@
             ],
             "endpoint_independent_nat": true,
             "auto_route": true,
-            "strict_route": true,
-            "platform": {
-                "http_proxy": {
-                    "enabled": true,
-                    "server": "127.0.0.1",
-                    "server_port": 18193
-                }
-            }
-        },
-        {
-            "tag": "mixed-in",
-            "type": "mixed",
-            "listen": "127.0.0.1",
-            "listen_port": 18193
+            "strict_route": true
         }
     ],
     "outbounds": [
@@ -351,10 +315,7 @@
         "final": "漏网之鱼",
         "rules": [
             {
-                "inbound": [
-                    "tun-in",
-                    "mixed-in"
-                ],
+                "inbound": "tun-in",
                 "action": "sniff"
             },
             {
@@ -381,17 +342,7 @@
                 "outbound": "节点选择"
             },
             {
-                "type": "logical",
-                "mode": "or",
-                "rules": [
-                    {
-                        "network": "udp",
-                        "port": 443
-                    },
-                    {
-                        "port": 853
-                    }
-                ],
+                "port": 853,
                 "action": "reject"
             },
             {
@@ -412,6 +363,20 @@
                 "rule_set": "geosite-chat",
                 "action": "route",
                 "outbound": "OpenAI"
+            },
+            {
+                "type": "logical",
+                "mode": "and",
+                "rules": [
+                    {
+                        "rule_set": "geosite-youtube"
+                    },
+                    {
+                        "network": "udp",
+                        "port": 443
+                    }
+                ],
+                "action": "reject"
             },
             {
                 "rule_set": "geosite-youtube",
@@ -446,9 +411,6 @@
                 ],
                 "action": "route",
                 "outbound": "全球直连"
-            },
-            {
-                "action": "resolve"
             }
         ],
         "rule_set": [
